@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 #logo {
     width: 20vw;
-    border: solid green;
+    border: solid #432064;
     border-radius: 44vw;
     padding-left: 2vw;
     background-color: #F7F7F7;
@@ -28,7 +28,7 @@
     background-color: #F7F7F7;
     width: 13vw;
     height: 9vw;
-    border: solid green;
+    border: solid #432064;
     text-align: center;
     margin-left: 44vw;
 }
