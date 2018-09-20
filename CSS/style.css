@@ -22,6 +22,7 @@
 .kleur-input {
     background-color: #F7F7F7;
     width: 11vw;
+    border-radius: 30vw;
 }
 #form-login{
     background-color: #F7F7F7;
