@@ -37,3 +37,6 @@
 .font {
     font-family: 'Raleway', sans-serif;
 }
+.submit {
+    border-radius: 30vw;
+}
