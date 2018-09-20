@@ -13,7 +13,9 @@
 * {
     background-color: #E07DFF;
 }
-.kleur-input,
+.kleur-input {
+    background-color: #F7F7F7;
+}
 #form-login{
     background-color: #F7F7F7;
 }
