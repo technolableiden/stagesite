@@ -40,3 +40,8 @@
 .submit {
     border-radius: 30vw;
 }
+#font1,
+#font2{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F7F7F7;
+}
