@@ -36,6 +36,7 @@ nav{
 }
 
 .logo{
+    width: 40vh;
     float: left;
     padding-left: 2%;
 }
