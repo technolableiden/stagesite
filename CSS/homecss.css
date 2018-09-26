@@ -35,7 +35,11 @@ nav{
     width: calc(100% - 60px);
 }
 
-
+.logo{
+    height: 3px;
+    float: left;
+    padding-left: 2%;
+}
 
 .menu-area li a:hover{
 
