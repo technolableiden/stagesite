@@ -5,3 +5,11 @@
     right:0;
     background-color: #8CC63E;
 }
+#logo {
+    width: 20vw;
+    border: solid #432064;
+    border-radius: 44vw;
+    padding-left: 2vw;
+    background-color: #F7F7F7;
+    margin-left: 39.3vw;
+}
