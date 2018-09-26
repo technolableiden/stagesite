@@ -40,7 +40,6 @@ nav{
     height: 3px;
     width: 15%;
     float: left;
-    text-transform: uppercase;
     padding-left: 2%;
 }
 .menu-area li a:hover{
