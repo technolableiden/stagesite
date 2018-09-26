@@ -12,7 +12,7 @@
     <div id="font2">password</div> <input class="kleur-input" type="password" name="password"/><br>
     <div id="font3">email</div> <input class="kleur-input" type="text" name="username"/><br>
     <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie-code"/><br>
-    <div class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>
+    <div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>
 </form>
 </body>
 <footer>
