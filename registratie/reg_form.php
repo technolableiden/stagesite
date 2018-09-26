@@ -11,7 +11,7 @@
 </form>
 </body>
 <footer>
-
+    <div id="font1">username</div> <input class="kleur-input" type="text" name="username"/><br>
 </footer>
 
 
