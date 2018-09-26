@@ -7,6 +7,20 @@
     <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
 </header>
 <body>
+<?php
+$servername = "https://web2.64ip.net";
+$username = "spelsalo_2";
+$password = "klaas111";
+
+//connection being created
+$conn = mysqli_connect($servername, $username, $password);
+
+//connection being checked
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+?>
 <form id="form-reg" method="get" action="reg.php">
     <div id="font1">username</div> <input class="kleur-input" type="text" name="username"/><br>
     <div id="font2">password</div> <input class="kleur-input" type="password" name="password"/><br>
