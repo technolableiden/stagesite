@@ -32,3 +32,8 @@
     font-size: 2vw;
     color: #8CC63E;
 }
+.kleur-input {
+    background-color: #F7F7F7;
+    width: 11vw;
+    border-radius: 30vw;
+}
