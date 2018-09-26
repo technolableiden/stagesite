@@ -17,9 +17,27 @@
 #form-reg{
     background-color: #F7F7F7;
     width: 13vw;
-    height: 9vw;
+    height: 17vw;
     border: solid #432064;
     text-align: center;
     margin-left: 44vw;
     margin-top: 10vh;
+}
+#font1,
+#font2,
+#font3,
+#font4 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F7F7F7;
+    font-size: 2vw;
+    color: #8CC63E;
+}
+.kleur-input {
+    background-color: #F7F7F7;
+    width: 11vw;
+    border-radius: 30vw;
+}
+#bot-check {
+    margin-top: 1.8vw;
+    margin-left: -0.65vw;
 }
