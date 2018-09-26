@@ -9,8 +9,11 @@
 }
 #button-nieuw {
     background-color: #F7F7F7;
-    color: green;
-    margin-left:90vw ;
+    margin-left:89vw;
+    margin-top:2vw;
+    position: absolute;
+    height: 10vh;
+    width: 9vw;
 }
 * {
     top: 0;
