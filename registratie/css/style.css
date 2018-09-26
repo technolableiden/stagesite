@@ -32,6 +32,12 @@
     font-size: 2vw;
     color: #8CC63E;
 }
+#font5 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F7F7F7;
+    font-size: 1vw;
+    color: #8CC63E;
+}
 .kleur-input {
     background-color: #F7F7F7;
     width: 11vw;
@@ -43,9 +49,10 @@
 }
 #ga-terug {
     background-color: #F7F7F7;
-    margin-left:90vw;
+    margin-left:89vw;
     margin-top:2vw;
     position: absolute;
-    height: 2vh;
+    height: 10vh;
+    width: 9vw;
 
 }
