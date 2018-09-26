@@ -5,7 +5,7 @@
 </head>
 <header>
     <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
-    <button id="ga-terug" href="../login-form.html" alt="terug knop">Ga terug naar login page</button>
+    <button id="ga-terug" href="../login-form.html" alt="terug knop"><p id="font5">Ga terug naar login page</p></button>
 </header>
 <body>
 <form id="form-reg" method="get" action="reg.php">
