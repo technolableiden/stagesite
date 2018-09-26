@@ -38,6 +38,7 @@ nav{
 .logo{
     width: 40vh;
     float: left;
+    padding-left: -5%;
 }
 
 .menu-area li a:hover{
