@@ -14,6 +14,7 @@
     <div id="font1">username</div> <input class="kleur-input" type="text" name="username"/><br>
     <div id="font1">password</div> <input class="kleur-input" type="password" name="password"/><br>
     <div id="font1">email</div> <input class="kleur-input" type="text" name="username"/><br>
+    <div id="font1">activatie-code</div> <input class="kleur-input" type="password" name="activatie-code"/><br>
 </footer>
 
 
