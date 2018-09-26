@@ -14,11 +14,7 @@
 <header>
     <div class="custom=padding">
         <nav>
-<<<<<<< HEAD
-            <div class="logo"><img src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo" height="50" width="30" </div>
-=======
-            <div class="logo"<img src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo" height="1000vw"></div>
->>>>>>> develop-homepage
+    <div class="logo"><img src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"</div>
             <ul class="menu-area">
                 <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
