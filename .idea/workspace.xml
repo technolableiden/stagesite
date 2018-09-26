@@ -95,8 +95,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beveiligd.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="561">
               <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+=======
+            <state relative-caret-position="272">
+              <caret line="16" column="112" lean-forward="true" selection-start-line="16" selection-start-column="112" selection-end-line="16" selection-end-column="112" />
+>>>>>>> develop-homepage
             </state>
           </provider>
         </entry>
@@ -226,10 +231,14 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1767000" />
 =======
     <option name="totallyTimeSpent" value="2420000" />
 >>>>>>> 1d8f064946e2a4c701d5f9a80d9f28f36bb3219f
+=======
+    <option name="totallyTimeSpent" value="2585000" />
+>>>>>>> develop-homepage
   </component>
   <component name="ToolWindowManager">
     <frame x="94" y="132" width="1750" height="970" extended-state="0" />
@@ -283,6 +292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beveiligd.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="561">
           <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
 =======
@@ -290,6 +300,10 @@
         <state relative-caret-position="567">
           <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
 >>>>>>> 1d8f064946e2a4c701d5f9a80d9f28f36bb3219f
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="112" lean-forward="true" selection-start-line="16" selection-start-column="112" selection-end-line="16" selection-end-column="112" />
+>>>>>>> develop-homepage
         </state>
       </provider>
     </entry>
