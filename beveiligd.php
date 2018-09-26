@@ -12,6 +12,17 @@
     <title>Technolab Stagairspot</title>
 </head>
 <header>
+    <div class="custom=padding">
+        <nav>
+            <div class="logo"><img src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"</div>
+            <ul class="menu-area">
+                <li><a href="#">Workshops</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Leerdoelen</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
 </header>
 <body>
