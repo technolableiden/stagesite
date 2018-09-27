@@ -5,8 +5,8 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
     $juisteuser = "ravinator";
     $juistww = "password";
     
-    $ingevoerdeuser = $_POST['username'];
-    $ingevoerdeww = $_POST['password'];
+    $ingevoerdeuser = $_GET['username'];
+    $ingevoerdeww = $_GET['password'];
     
     if($juisteuser == $ingevoerdeuser && $juistww == $ingevoerdeww){
         session_start();
