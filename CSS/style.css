@@ -58,9 +58,17 @@
     font-size: 2vw;
     color: #8CC63E;
 }
+
 #font3 {
     font-family: 'Raleway', sans-serif;
     background-color: #F7F7F7;
     font-size: 1vw;
     color: #8CC63E;
 }
+
+#nieuw-border {
+    background-color: #F7F7F7;
+    height: 9vw;
+    width: 13vw;
+}
+
