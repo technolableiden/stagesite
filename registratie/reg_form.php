@@ -19,20 +19,22 @@
 $servername = "185.114.157.172";
 $username = "spelsalo";
 $password = "klaas111";
+$dbname = "spelsalo_2";
 
 //connection being created
-$conn = mysqli_connect($servername, $username, $password);
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 //connection being checked
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+$insert = $mysqli->query('INSERT INTO table ('username','password','email') VALUE ('$uname','$pname','$email')'
 echo "Connected successfully";
 ?>
 <form id="form-reg" method="get" action="reg.php">
-    <div id="font1">username</div> <input class="kleur-input" type="text" name="username"/><br>
-    <div id="font2">password</div> <input class="kleur-input" type="password" name="password"/><br>
-    <div id="font3">email</div> <input class="kleur-input" type="text" name="username"/><br>
+    <div id="font1">username</div> <input class="kleur-input" value="$uname" type="text" name="username"/><br>
+    <div id="font2">password</div> <input class="kleur-input" value="$pname" type="password" name="password"/><br>
+    <div id="font3">email</div> <input class="kleur-input" type="text" value="$email" name="username"/><br>
     <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie-code"/><br>
     <input type="submit" class="submit" name="registeren" value="register"/><br>
     <div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>
