@@ -9,7 +9,15 @@
     <meta name="author" content="Ravi Breugom, Alexander Wallaard, Natascha van Baal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Technolab Stagairspot</title>
+
+    <style>
+
+
+
+    </style>
 </head>
 <body>
 <header>
@@ -21,8 +29,11 @@
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
                 <li><a href="#"></a></li>
-                <section id="slidedown">
-                    <div class="topnav" id="myTopnav">
+                <div class="dropdown">
+                    <li><a class="dropbtn">&#9881;
+                        <i class="fa fa-caret-down"></i>
+                    </a></li>
+                    <div class="dropdown-content">
                         <a href='uitloggen.php'>Uitloggen</a>
                         <a><?php
 
@@ -36,16 +47,25 @@
                             }
 
                             ?></a>
-                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9881;</a>
                     </div>
-            </ul>
-        </nav>
+                </div>
+
+
+
+
+
+
+
+
+
+
     </div>
 
 </header>
 
-<p></p>
+
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
+
