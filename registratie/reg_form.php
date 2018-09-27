@@ -16,7 +16,7 @@
 </header>
 <body>
 <?php
-$servername = "https://web2.64ip.net";
+$servername = "185.114.157.172";
 $username = "spelsalo_2";
 $password = "klaas111";
 
