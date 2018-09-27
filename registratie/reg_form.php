@@ -21,24 +21,41 @@ $username = "spelsalo";
 $password = "klaas111";
 $dbname = "spelsalo_2";
 
-//connection being created
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-
-//connection being checked
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
-$insert = $mysqli->query('INSERT INTO table ('username','password','email') VALUE ('$uname','$pname','$email')'
-echo "Connected successfully";
+
+$v_code = sql = "select activatie from activatie"
+
+if(isset($_POST['submit'])) {
+    $uname = $_POST['username'];
+    $pass = $_POST['password'];
+    $email = $_POST['email'];
+    $v_code = $_POST['activatie'];
+if ($activatie==2665){
+
+    $sql = "use spelsalo_2; 
+INSERT INTO account(id, username, password, email, v_code) VALUES('', '$uname', '$pass', '$email', '$v_code')";
+}
+else{
+    echo 'activatie code niet goed!!';
+}
+}
+$conn->close();
 ?>
-<form id="form-reg" method="get" action="reg.php">
-    <div id="font1">username</div> <input class="kleur-input" value="$uname" type="text" name="username"/><br>
-    <div id="font2">password</div> <input class="kleur-input" value="$pname" type="password" name="password"/><br>
-    <div id="font3">email</div> <input class="kleur-input" type="text" value="$email" name="username"/><br>
-    <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie-code"/><br>
-    <input type="submit" class="submit" name="registeren" value="register"/><br>
-    <div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>
+
+<form id="form-reg" method="POST" action="">
+    <div id="font1">username</div> <input class="kleur-input" type="text" id="username" name="username"/><br>
+    <div id="font2">password</div> <input class="kleur-input" type="password" id="password" name="password"/><br>
+    <div id="font3">email</div> <input class="kleur-input" type="text" id="email" name="email"/><br>
+    <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie"/><br>
+    <input type="submit" class="submit" name="submit" value="submit"/><br>
+    <!--<div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>-->
 </form>
+
 </body>
 <footer>
 
