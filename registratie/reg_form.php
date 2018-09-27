@@ -17,7 +17,7 @@
 <body>
 <?php
 $servername = "185.114.157.172";
-$username = "spelsalo_2";
+$username = "spelsalo";
 $password = "klaas111";
 
 //connection being created
