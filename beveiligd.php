@@ -40,7 +40,7 @@ else{
 }
 
 ?>
-
+<p>&#9881;</p>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
