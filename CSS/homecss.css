@@ -32,6 +32,7 @@ nav{
     z-index: 1;
     background: #333333;
     margin: 0 auto;
+    margin-top: 5%;
     width: calc(100% - 60px);
 }
 
@@ -43,5 +44,15 @@ nav{
 }
 
 .menu-area li a:hover{
-
+    background: red;
+}
+nav:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top:10px solid #333333;
+    border-right: 10px solid #333333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
 }
