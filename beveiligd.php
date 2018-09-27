@@ -23,8 +23,19 @@
                 <li><a href="#"></a></li>
                 <section id="slidedown">
                     <div class="topnav" id="myTopnav">
-                        <a href="over/over.html">Over</a>
-                        <a href="autos/Bobauto.html">Auto's</a>
+                        <a href='uitloggen.php'>Uitloggen</a>
+                        <a><?php
+
+                            session_start();
+                            if($_SESSION['ingelogd'] == "ja"){
+                                echo $_SESSION['username']."<br>";
+
+                            }
+                            else{
+                                header("Location: login_form.html");
+                            }
+
+                            ?></a>
                         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9881;</a>
                     </div>
             </ul>
@@ -33,20 +44,9 @@
 
 </header>
 
-<?php
 
-session_start();
-if($_SESSION['ingelogd'] == "ja"){
-    echo "hallo"." ".$_SESSION['username']."<br>";
-    //tabel maken in sql
-    echo "<a href='uitloggen.php'>Uitloggen</a>";
-}
-else{
-    header("Location: login_form.html");
-}
-
-?>
 <p></p>
+
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>

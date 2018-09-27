@@ -27,23 +27,53 @@ body{
     display: inline-block;
 }
 .custom-padding{
-    padding-top: 25px;
+
+    padding-top: 20%;
 }
 nav{
     position: relative;
     padding: 10px 20px 10px 10px;
     text-align: right;
     z-index: 1;
-    background: #333333;
+    background: #8CC63E;
     margin: 0 auto;
     width: calc(100% - 60px);
+    margin-top: 30px;
 }
 
 .logo{
+    width: 20vh;
     float: left;
-    padding-left: 2%;
+    margin-top: -30px;
+    margin-left: 10px;
 }
 
 .menu-area li a:hover{
+    background: #432064;
+    color: #F7F7F7;
+}
+nav:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top:10px solid #333333;
+    border-right:10px solid #333333;
+    border-left: 10px solid transparent;
+    border-bottom:10px solid transparent;
+}
 
+nav:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top:10px solid #333333;
+    border-right:10px solid #333333;
+    border-left: 10px solid transparent;
+    border-bottom:10px solid transparent;
+}
+
+.menu-area h2{
+    color:#F7F7F7;
 }

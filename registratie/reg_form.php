@@ -2,10 +2,17 @@
 <head>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Stagair local spot">
+    <meta name="keywords" content="Technolab, Stagairs, Workshops">
+    <meta name="author" content="Ravi Breugom, Alexander Wallaard, Natascha van Baal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>Technolab Stagairspot</title>
 </head>
 <header>
     <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
-    <button id="ga-terug" href="../login-form.html" alt="terug knop">Ga terug naar login page</button>
+    <button id="ga-terug" href="../login-form.html" alt="terug knop"><a href="../login_form.html" id="font5">Ga terug naar login page</a></button>
 </header>
 <body>
 <form id="form-reg" method="get" action="reg.php">
@@ -19,6 +26,7 @@
 </body>
 <footer>
 
+    <footer id="copyright">&copy; Technolab Leiden</footer>
 </footer>
 
 
