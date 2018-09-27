@@ -2,6 +2,13 @@
 <head>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Stagair local spot">
+    <meta name="keywords" content="Technolab, Stagairs, Workshops">
+    <meta name="author" content="Ravi Breugom, Alexander Wallaard, Natascha van Baal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>Technolab Stagairspot</title>
 </head>
 <header>
     <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
