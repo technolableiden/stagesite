@@ -39,8 +39,8 @@ nav{
 .logo{
     width: 10vh;
     float: left;
-    margin-top: -2%;
-    margin-left: -2%;
+    margin-top: -10px;
+    margin-left: 10px;
 }
 
 .menu-area li a:hover{
