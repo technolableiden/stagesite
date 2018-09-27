@@ -20,7 +20,13 @@
                 <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#"></a></li>
+                <section id="slidedown">
+                    <div class="topnav" id="myTopnav">
+                        <a href="over/over.html">Over</a>
+                        <a href="autos/Bobauto.html">Auto's</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9881;</a>
+                    </div>
             </ul>
         </nav>
     </div>
@@ -40,7 +46,7 @@ else{
 }
 
 ?>
-<p>&#9881;</p>
+<p></p>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
