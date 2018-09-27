@@ -26,6 +26,7 @@
 </body>
 <footer>
 
+    <footer id="copyright">&copy; Technolab Leiden</footer>
 </footer>
 
 
