@@ -43,9 +43,10 @@
     </div>
 
 </header>
+<img src="img/WhatsApp%20Image%202018-09-20%20at%2010.45.36.jpeg" alt="mieke" height="50">
 <img src="img/WhatsApp%20Image%202018-09-20%20at%2010.40.55.jpeg" alt="mieke">
 <img src="img/WhatsApp%20Image%202018-09-20%20at%2010.41.45.jpeg" alt="mieke">
-<img src="img/WhatsApp%20Image%202018-09-20%20at%2010.45.36.jpeg" alt="mieke">
+
 <img src="img/WhatsApp%20Image%202018-09-20%20at%2010.45.59.jpeg" alt="mieke">
 <p></p>
 
