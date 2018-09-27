@@ -19,6 +19,8 @@
             <ul class="menu-area">
                 <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
+                <li><a href="#">Workshops</a></li>
+                <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
