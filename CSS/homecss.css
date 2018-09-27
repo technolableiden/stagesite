@@ -45,6 +45,7 @@ nav{
 
 .menu-area li a:hover{
     background: red;
+    color: #F7F7F7;
 }
 nav:before{
     position: absolute;
