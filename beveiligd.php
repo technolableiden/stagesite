@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/homecss.css">
     <script src="JS/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
@@ -12,6 +12,17 @@
     <title>Technolab Stagairspot</title>
 </head>
 <header>
+    <div class="custom=padding">
+        <nav>
+    <img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo">
+            <ul class="menu-area">
+                <li><a href="#">Workshops</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Leerdoelen</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
 </header>
 <body>
