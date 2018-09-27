@@ -11,6 +11,7 @@
     <meta http-equiv="refresh" content="60">
     <title>Technolab Stagairspot</title>
 </head>
+<body>
 <header>
     <div class="custom=padding">
         <nav>
@@ -25,10 +26,6 @@
     </div>
 
 </header>
-<body>
-
-
-
 
 <?php
 
@@ -43,7 +40,6 @@ else{
 }
 
 ?>
-</body>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
