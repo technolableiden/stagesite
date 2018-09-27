@@ -79,7 +79,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beveiligd.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/homecss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
+            <state relative-caret-position="1061">
               <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
             </state>
           </provider>
@@ -244,7 +244,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4655000" />
+    <option name="totallyTimeSpent" value="5099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -299,6 +299,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/homecss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1061">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/beveiligd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -306,13 +313,6 @@
           <folding>
             <element signature="e#1268#1274#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/homecss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
         </state>
       </provider>
     </entry>
