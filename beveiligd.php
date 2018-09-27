@@ -17,8 +17,19 @@
         <nav>
     <img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo">
             <ul class="menu-area">
-                <li><a href="#">Workshops</a></li>
-                <li><a href="#">Agenda</a></li>
+                <li><h2><?php
+
+                        session_start();
+                        if($_SESSION['ingelogd'] == "ja"){
+                            echo "hallo"." ".$_SESSION['username']."<br>";
+
+                        }
+                        else{
+                            header("Location: login_form.html");
+                        }
+
+                        ?></h2></li>
+                <li><a href='uitloggen.php'>Uitloggen</a></li>
                 <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
@@ -29,19 +40,7 @@
 
 </header>
 
-<?php
 
-session_start();
-if($_SESSION['ingelogd'] == "ja"){
-    echo "hallo"." ".$_SESSION['username']."<br>";
-    //tabel maken in sql
-    echo "<a href='uitloggen.php'>Uitloggen</a>";
-}
-else{
-    header("Location: login_form.html");
-}
-
-?>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>

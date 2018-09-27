@@ -73,3 +73,7 @@ nav:after{
     border-left: 10px solid transparent;
     border-bottom:10px solid transparent;
 }
+
+.menu-area h2{
+    color:#F7F7F7;
+}
