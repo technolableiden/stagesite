@@ -1,6 +1,7 @@
 
 
 <?php
+session_start();
 if(isset($_POST['submit'])){
 include('config.php');
 
@@ -17,8 +18,8 @@ include('config.php');
         $count = $row['cntUser'];
 
         if($count > 0){
-            $_SESSION['uname'] = $uname;
-            session_start();
+            $_SESSION['username'] = $uname;
+            $_SESSION['ingelogd'] = "ja";
             header('Location: beveiligd.php');
         }else{
             echo "Invalid username and password";

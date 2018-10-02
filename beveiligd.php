@@ -38,12 +38,15 @@
                         <a><?php
 
                             session_start();
+
                             if($_SESSION['ingelogd'] == "ja"){
                                 echo $_SESSION['username']."<br>";
 
                             }
                             else{
-                                header("Location: login_form.php");
+                                $message = "mooi geprobeerd.. eerst inloggen!";
+                                echo "<script type='text/javascript'>alert('$message');</script>";
+                                header( "refresh:0.1;url=login_form.php" );
                             }
 
                             ?></a>
