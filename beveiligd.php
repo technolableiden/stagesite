@@ -60,6 +60,19 @@
 
 
 
+=======
+<?php
+session_start();
+if(!isset($_SESSION['uname'])){
+
+}
+else {
+    header('Location: beveiligd.php');
+}
+?>
+</body>
+
+
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
