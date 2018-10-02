@@ -50,22 +50,14 @@
                             ?></a>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
     </div>
 
 </header>
 <div id="welkomblok">
     <h1>Welkom <?php echo $_SESSION['username'];?></h1>
 </div>
+
+
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
