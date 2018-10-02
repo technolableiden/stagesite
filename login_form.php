@@ -1,3 +1,120 @@
+
+
+<?php
+if(isset($_POST['submit'])){
+    $dbHost = "185.114.157.172";        //Location Of Database usually its localhost
+    $dbUser = "spelsalo";            //Database User Name
+    $dbPass = "klaas111";            //Database Password
+    $dbname = "spelsalo_2";    //Database Name
+
+// Create connection
+    $con = new mysqli($dbHost, $dbUser, $dbPass, $dbname);
+// Check connection
+    if ($con->connect_error) {
+        die("Connection failed: " . $con->connect_error);
+    }
+
+
+    $uname = mysqli_real_escape_string($con,$_POST['username']);
+    $password = mysqli_real_escape_string($con,$_POST['password']);
+
+    if ($uname != "" && $password != ""){
+
+        $sql_query = "select count(*) as cntUser from account where username='".$uname."' and password='".$password."'";
+        $result = mysqli_query($con,$sql_query);
+        $row = mysqli_fetch_array($result);
+
+        $count = $row['cntUser'];
+
+        if($count > 0){
+            $_SESSION['uname'] = $uname;
+            session_start();
+            header('Location: beveiligd.php');
+        }else{
+            echo "Invalid username and password";
+        }
+
+    }
+
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,13 +133,9 @@
         <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
     </header>
     <body>
-    <?php
-    
 
 
-    ?>
-    <form id="form-login" method="get" action="login.php">
-
+    <form id="form-login" method="POST" action="">
         <div id="font1">username</div> <input class="kleur-input" type="text" name="username"/><br>
         <div id="font2">password</div> <input class="kleur-input" type="password" name="password"/><br>
         <input type="submit" class="submit" name="submit" value="login"/><br>
