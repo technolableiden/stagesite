@@ -35,11 +35,11 @@ if(isset($_POST['submit'])) {
     $email = $_POST['email'];
     $activatie = $_POST['activatie'];
 if ($activatie=='2665'){
-$sql_query = "INSERT INTO account(id, username, password, email) VALUES(NULL, '$pass', '$email');";
-    echo 'nu wordt er een query uitgevoerd!!';
+    mysqli_query($conn,"INSERT INTO account(id, username, password, email) VALUES (NULL, '$uname', '$pass', '$email');");
+    echo 'code accepted!! inserting account..';
 }
 else{
-    echo 'activatie code niet goed!!';
+    echo 'activation code isnt working!!';
 }
 }
 $conn->close();
