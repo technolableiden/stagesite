@@ -36,18 +36,7 @@
                     </a></li>
                     <div class="dropdown-content">
                         <a href='uitloggen.php'>Uitloggen</a>
-                        <a><?php
 
-                            session_start();
-                            if($_SESSION['ingelogd'] == "ja"){
-                                echo $_SESSION['username']."<br>";
-
-                            }
-                            else{
-                                header("Location: login_form.html");
-                            }
-
-                            ?></a>
                     </div>
                 </div>
     </div>
@@ -58,6 +47,19 @@
 </div>
 
 
+
+
+
+<?php
+session_start();
+if(!isset($_SESSION['uname'])){
+
+}
+else {
+    header('Location: beveiligd.php');
+}
+?>
+</body>
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
