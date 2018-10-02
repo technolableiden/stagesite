@@ -16,7 +16,7 @@ body{
     letter-spacing: 1px;
     text-transform: uppercase;
     display: block;
-    padding: 0 25px;
+    padding: 0px 25px;
     font-size: 14px;
     line-height: 30px;
     position: relative;
@@ -33,7 +33,7 @@ body{
 nav{
     position: relative;
     padding: 10px 20px 10px 10px;
-    text-align: right;
+    text-align: center;
     z-index: 1;
     background: #8CC63E;
     margin: 0 auto;
