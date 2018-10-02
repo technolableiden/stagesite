@@ -15,14 +15,45 @@
     <button id="ga-terug" href="../login-form.html" alt="terug knop"><a href="../login_form.html" id="font5">Ga terug naar login page</a></button>
 </header>
 <body>
-<form id="form-reg" method="get" action="reg.php">
-    <div id="font1">username</div> <input class="kleur-input" type="text" name="username"/><br>
-    <div id="font2">password</div> <input class="kleur-input" type="password" name="password"/><br>
-    <div id="font3">email</div> <input class="kleur-input" type="text" name="username"/><br>
-    <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie-code"/><br>
-    <input type="submit" class="submit" name="registeren" value="register"/><br>
-    <div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>
+<?php
+$servername = "185.114.157.172";
+$username = "spelsalo";
+$password = "klaas111";
+$dbname = "spelsalo_2";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+if(isset($_POST['submit'])) {
+    $uname = $_POST['username'];
+    $pass = $_POST['password'];
+    $email = $_POST['email'];
+    $activatie = $_POST['activatie'];
+if ($activatie=='2665'){
+$sql_query = "INSERT INTO account(id, username, password, email) VALUES(NULL, '$pass', '$email');";
+    echo 'nu wordt er een query uitgevoerd!!';
+}
+else{
+    echo 'activatie code niet goed!!';
+}
+}
+$conn->close();
+?>
+
+<form id="form-reg" method="POST" action="">
+    <div id="font1">username</div> <input class="kleur-input" type="text" id="username" name="username"/><br>
+    <div id="font2">password</div> <input class="kleur-input" type="password" id="password" name="password"/><br>
+    <div id="font3">email</div> <input class="kleur-input" type="text" id="email" name="email"/><br>
+    <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie"/><br>
+    <input type="submit" class="submit" name="submit" value="submit"/><br>
+    <!--<div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>-->
 </form>
+
 </body>
 <footer>
 
