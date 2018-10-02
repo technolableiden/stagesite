@@ -16,33 +16,22 @@
 </header>
 <body>
 <?php
-$servername = "185.114.157.172";
-$username = "spelsalo";
-$password = "klaas111";
-$dbname = "spelsalo_2";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-
+include('../config.php');
 if(isset($_POST['submit'])) {
     $uname = $_POST['username'];
     $pass = $_POST['password'];
     $email = $_POST['email'];
     $activatie = $_POST['activatie'];
 if ($activatie=='2665'){
-    mysqli_query($conn,"INSERT INTO account(id, username, password, email) VALUES (NULL, '$uname', '$pass', '$email');");
+    mysqli_query($con,"INSERT INTO account(id, username, password, email) VALUES (NULL, '$uname', '$pass', '$email');");
     echo 'code accepted!! inserting account..';
 }
 else{
     echo 'activation code isnt working!!';
 }
 }
-$conn->close();
+$con->close();
 ?>
 
 <form id="form-reg" method="POST" action="">
