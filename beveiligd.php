@@ -43,7 +43,7 @@
 
                             }
                             else{
-                                header("Location: ../login_form.php");
+                                header("Location: login_form.php");
                             }
 
                             ?></a>
@@ -56,19 +56,6 @@
     <h1>Welkom <?php echo $_SESSION['username'];?></h1>
 </div>
 
-
-
-
-
-<?php
-session_start();
-if(!isset($_SESSION['uname'])){
-
-}
-else {
-    header('Location: beveiligd.php');
-}
-?>
 </body>
 
 
