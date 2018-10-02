@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/homecss.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Workshops.css">
     <script src="JS/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
@@ -23,45 +23,48 @@
 <header>
     <div class="custom=padding">
         <nav>
-    <a href="#"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+            <a href="../beveiligd.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
-                <li><a href="Workshops/Workshop.php">Workshops</a></li>
+                <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
-                <li><a href="Contact/contact.php">Contact</a></li>
+                <li><a href="../Contact/Contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
-                        <i class="fa fa-caret-down"></i>
-                    </a></li>
+                            <i class="fa fa-caret-down"></i>
+                        </a></li>
                     <div class="dropdown-content">
-                        <a href='uitloggen.php'>Uitloggen</a>
+                        <a href='../uitloggen.php'>Uitloggen</a>
+                        <a><?php
 
+                            session_start();
+                            if($_SESSION['ingelogd'] == "ja"){
+                                echo $_SESSION['username']."<br>";
+
+                            }
+                            else{
+                                header("Location: ../login_form.html");
+                            }
+
+                            ?></a>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
     </div>
 
 </header>
-<div id="welkomblok">
-    <h1>Welkom <?php echo $_SESSION['username'];?></h1>
-</div>
 
-
-
-
-
-<?php
-session_start();
-if(!isset($_SESSION['uname'])){
-
-}
-else {
-    header('Location: beveiligd.php');
-}
-?>
-</body>
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
-
