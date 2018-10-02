@@ -28,7 +28,7 @@
                 <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="Contact/contact.php">Contact</a></li>
                 <li><a href="#"></a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
