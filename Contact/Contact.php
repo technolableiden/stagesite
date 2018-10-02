@@ -35,7 +35,7 @@
                             <i class="fa fa-caret-down"></i>
                         </a></li>
                     <div class="dropdown-content">
-                        <a href='uitloggen.php'>Uitloggen</a>
+                        <a href='../uitloggen.php'>Uitloggen</a>
                         <a><?php
 
                             session_start();
