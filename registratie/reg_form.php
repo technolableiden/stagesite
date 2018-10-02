@@ -35,7 +35,7 @@ if(isset($_POST['submit'])) {
     $email = $_POST['email'];
     $activatie = $_POST['activatie'];
 if ($activatie=='2665'){
-$sql_query = "INSERT INTO account(id, username, password, email) VALUES(NULL, '$pass', '$email');";
+$sqli_query = "INSERT INTO account(id, username, password, email) VALUES(NULL, '$username', '$pass', '$email');";
     echo 'nu wordt er een query uitgevoerd!!';
 }
 else{
