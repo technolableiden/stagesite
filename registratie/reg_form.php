@@ -28,17 +28,15 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$v_code = sql = "select activatie from activatie"
 
 if(isset($_POST['submit'])) {
     $uname = $_POST['username'];
     $pass = $_POST['password'];
     $email = $_POST['email'];
-    $v_code = $_POST['activatie'];
-if ($activatie==2665){
-
-    $sql = "use spelsalo_2; 
-INSERT INTO account(id, username, password, email, v_code) VALUES('', '$uname', '$pass', '$email', '$v_code')";
+    $activatie = $_POST['activatie'];
+if ($activatie=='2665'){
+$sql_query = "INSERT INTO account(id, username, password, email) VALUES(NULL, '$pass', '$email');";
+    echo 'nu wordt er een query uitgevoerd!!';
 }
 else{
     echo 'activatie code niet goed!!';
