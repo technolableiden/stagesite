@@ -46,18 +46,11 @@
                 </div>
 
 
-
-
-
-
-
-
-
-
     </div>
 
 </header>
 
+<canvas id="border-spel" width="300px" height="300px"></canvas>
 
 
 

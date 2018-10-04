@@ -40,7 +40,9 @@ nav{
     width: calc(100% - 60px);
     margin-top: 30px;
 }
-
+#border-spel {
+    background-color: black;
+}
 .logo{
     width: 20vh;
     float: left;
