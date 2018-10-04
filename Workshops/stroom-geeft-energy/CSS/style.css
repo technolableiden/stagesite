@@ -56,7 +56,9 @@ nav{
     background-color: black;
     position: absolute;
     margin-left: 8vw;
-    margin-top: 5.3vw;
+    margin-top: 1.3vw;
+    width:29vw;
+    height: 28.2vw;
 }
 #border-buiten {
     margin-left: 10vw;

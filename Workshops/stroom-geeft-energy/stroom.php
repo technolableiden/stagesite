@@ -52,7 +52,7 @@
 <div id="border-buiten">
     <h1 id="border-buiten-tekst1">Stroom Geeft energy game</h1>
     <p id="border-buiten-tekst2">Het doel van dit spel is om alle schakeltjes op de goede manier te verbinden waardoor het lampje gaat branden.</p>
-    <canvas id="border-spel" width="620vw" height="620vw"></canvas>
+    <canvas id="border-spel"></canvas>
 </div>
 
 
