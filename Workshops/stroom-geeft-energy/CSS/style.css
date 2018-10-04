@@ -57,13 +57,13 @@ nav{
     position: absolute;
     margin-left: calc(21vw - 350px);
     margin-top: 1.3vw;
-    width:700px;
+    width:4000px;
     height: 28.2vw;
 }
 #border-buiten {
     margin-left: calc( 50vw -  450px );
     margin-top: 10vw;
-    width: 900px;
+    width: 2000px;
     height: 35vw;
     background-color: #8CC63E;
 }
