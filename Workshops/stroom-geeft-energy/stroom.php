@@ -49,8 +49,7 @@
     </div>
 
 </header>
-
-<canvas id="border-spel" width="300px" height="300px"></canvas>
+<canvas id="border-spel" width="620vw" height="620vw"></canvas>
 
 
 
