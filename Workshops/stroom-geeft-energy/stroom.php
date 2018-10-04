@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/Workshops.css">
-    <script src="JS/js.js"></script>
+    <script src="js/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
@@ -11,30 +10,26 @@
     <meta http-equiv="refresh" content="60">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
     <title>Technolab Stagairspot</title>
 
-    <style>
-
-
-
-    </style>
 </head>
 <body>
 <header>
     <div class="custom=padding">
         <nav>
-            <a href="../beveiligd.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+            <a href="../../beveiligd.php"><img class="logo" src="../../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
                 <li><a href="#">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
-                <li><a href="../Contact/Contact.php">Contact</a></li>
+                <li><a href="../../Contact/Contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
                             <i class="fa fa-caret-down"></i>
                         </a></li>
                     <div class="dropdown-content">
-                        <a href='../uitloggen.php'>Uitloggen</a>
+                        <a href='../../uitloggen.php'>Uitloggen</a>
                         <a><?php
 
                             session_start();
@@ -43,7 +38,7 @@
 
                             }
                             else{
-                                header("Location: ../login_form.php");
+                                header("Location: ../../login_form.php");
                             }
 
                             ?></a>
