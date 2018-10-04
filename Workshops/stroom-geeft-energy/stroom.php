@@ -49,8 +49,9 @@
     </div>
 
 </header>
+<div id="border-buiten">
 <canvas id="border-spel" width="620vw" height="620vw"></canvas>
-
+</div>
 
 
 

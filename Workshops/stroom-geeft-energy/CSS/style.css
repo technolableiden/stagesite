@@ -42,8 +42,16 @@ nav{
 }
 #border-spel {
     background-color: black;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 5.3vw;
+}
+#border-buiten {
     margin-left: 10vw;
     margin-top: 10vw;
+    width: 45vw;
+    height: 35vw;
+    background-color: #8CC63E;
 }
 .logo{
     width: 20vh;
