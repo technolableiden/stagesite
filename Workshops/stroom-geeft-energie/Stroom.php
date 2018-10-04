@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
     <title>Technolab Stagairspot</title>
-
 </head>
 <body>
 <header>
@@ -50,7 +49,7 @@
 
 </header>
 <div id="border-buiten">
-    <h1 id="border-buiten-tekst1">Stroom Geeft energy game</h1>
+    <h1 id="border-buiten-tekst1">Stroom Geeft energy game.</h1>
     <p id="border-buiten-tekst2">Het doel van dit spel is om alle schakeltjes op de goede manier te verbinden waardoor het lampje gaat branden.</p>
     <canvas id="border-spel"></canvas>
 </div>
