@@ -16,7 +16,7 @@ body{
 }
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 11vw;
+    margin-left: 13vw;
     margin-top: 1vw;
     width: 22vw;
     text-align: center;
@@ -57,14 +57,14 @@ nav{
     position: absolute;
     margin-left: calc(21vw - 350px);
     margin-top: 1.3vw;
-    width:4000px;
-    height: 28.2vw;
+    width:800px;
+    height: 26vw;
 }
 #border-buiten {
     margin-left: calc( 50vw -  450px );
-    margin-top: 10vw;
-    width: 2000px;
-    height: 35vw;
+    margin-top: 5vw;
+    width: 870px;
+    height: 34vw;
     background-color: #8CC63E;
 }
 .logo{
