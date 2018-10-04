@@ -19,7 +19,7 @@
 
     </style>
 </head>
-<body>
+<div>
 <header>
     <div class="custom=padding">
         <nav>
@@ -49,21 +49,20 @@
                             ?></a>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
     </div>
 
 </header>
 
+<div id="workshop-flex">
+<div class="Workshopblok"><h1>Zintuigen</h1></br>
+<a href="Zintuigen/Zintuigen.php">Klik hier</a></div>
 
+<div class="Workshopblok"><h1>Praten met apparaten</h1></br>
+<a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+
+<div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
+<a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+</div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
