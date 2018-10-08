@@ -127,4 +127,10 @@ nav:after{
 
 h1 {
     color: #8CC63E;
+    margin-top: 4%;
+    margin-left: 40%;
+}
+
+canvas {
+    margin-left: 20%;
 }
