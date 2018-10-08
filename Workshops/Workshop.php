@@ -61,7 +61,7 @@
 <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
 
 <div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
-<a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+<a href="praten-met-apparaten/PMA.php">Klik hier</a></div>
 </div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
