@@ -53,9 +53,9 @@ nav{
     margin-top: 30px;
 }
 #border-spel {
-    background-color: black;
+    background-image: url("img/speelveld.png");
     position: absolute;
-    margin-left: calc(21vw - 350px);
+    margin-left: 10vw;
     margin-top: 1.3vw;
     width:800px;
     height: 26vw;
