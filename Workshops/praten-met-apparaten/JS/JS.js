@@ -2,8 +2,8 @@ window.onload = function () {
     var canvas = document.getElementById("trash");
     var ctx = canvas.getContext('2d');
 
-    var height = canvas.height = 500;
-    var width = canvas.width = 800;
+    var height = canvas.height = 500px;
+    var width = canvas.width = 800px;
 
 
     var up = false;
