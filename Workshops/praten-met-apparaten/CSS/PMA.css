@@ -124,3 +124,13 @@ nav:after{
     display: block;
 
 }
+
+h1 {
+    color: #8CC63E;
+    margin-top: 4%;
+    margin-left: 45%;
+}
+
+canvas {
+    margin-left: 25%;
+}

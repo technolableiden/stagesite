@@ -37,7 +37,7 @@
 
                             }
                             else{
-                                header("Location: ../../login_form.php");
+                                header("Location: ../../../login_form.php");
                             }
 
                             ?></a>
@@ -49,7 +49,10 @@
 
 </header>
 
+<h1>Blockchase</h1>
+<canvas id="trash">
 
+</canvas>
 
 
 
