@@ -17,6 +17,12 @@ body{
     border: solid;
     position: absolute;
 }
+#gloeilamp {
+    margin-left: 65vw;
+    max-width: 5vw;
+    max-height: 5vw;
+    position: absolute;
+}
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
     margin-left: 34.4vw;
