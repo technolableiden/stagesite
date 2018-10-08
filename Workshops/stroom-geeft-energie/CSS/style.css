@@ -23,6 +23,21 @@ body{
     max-height: 5vw;
     position: absolute;
 }
+
+#schakkelaar2 {
+    margin-left: 12.78vw;
+    margin-bottom: 6.4vw;
+    position: relative;
+    transform: rotate(90deg);
+
+
+}
+#schakkelaar {
+    margin-left: 39.75vw;
+    margin-top: 16.5vw;
+    position: relative;
+    transform: rotate(90deg);
+}
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
     margin-left: 34.4vw;

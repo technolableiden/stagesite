@@ -62,7 +62,8 @@
         <img src="img/gloeilamp-uit.png"/>
         <img src="img/gloeilamp-aan.jpg" style="display:none;"/>
     </div>
-
+<img id="schakkelaar" src="img/schakkelaar.png"/>
+    <img id="schakkelaar2" src="img/schakkelaar.png"/>
 
 
 </div>
