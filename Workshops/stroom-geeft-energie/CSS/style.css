@@ -53,18 +53,18 @@ nav{
     margin-top: 30px;
 }
 #border-spel {
-    background-image: url("img/speelveld.png");
+    background-image: url("../img/speelveld.png");
     position: absolute;
-    margin-left: 10vw;
+    margin-left: calc(40vw - 600px);
     margin-top: 1.3vw;
-    width:800px;
-    height: 26vw;
+    width:1400px !important;
+    height: 37vw;
 }
 #border-buiten {
-    margin-left: calc( 50vw -  450px );
-    margin-top: 5vw;
-    width: 870px;
-    height: 34vw;
+    margin-left: calc( 30vw -  450px );
+    margin-top: 4.4vw;
+    width: 1650px;
+    height: 41vw;
     background-color: #8CC63E;
 }
 .logo{
