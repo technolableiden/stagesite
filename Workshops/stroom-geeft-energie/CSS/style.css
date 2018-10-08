@@ -12,14 +12,21 @@ body{
 }
 #border-buiten-tekst1 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 12.5vw;
+    margin-left: 32.5vw;
+    margin-top: -3vw;
+    border: solid;
+    position: absolute;
 }
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 13vw;
-    margin-top: 1vw;
-    width: 22vw;
+    margin-left: 34.4vw;
+    margin-top: 4vw;
+    padding-top: .2vw;
     text-align: center;
+    width: 20vw;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
 }
 
 .menu-area li a{
@@ -56,9 +63,9 @@ nav{
     background-image: url("../img/speelveld.png");
     position: absolute;
     margin-left: calc(40vw - 600px);
-    margin-top: 1.3vw;
+    margin-top: .5vw;
     width:1400px !important;
-    height: 37vw;
+    height: 36vw;
 }
 #border-buiten {
     margin-left: calc( 30vw -  450px );
