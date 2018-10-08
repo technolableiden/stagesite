@@ -17,6 +17,21 @@ body{
     border: solid;
     position: absolute;
 }
+#flex-container-pijlen {
+    position: absolute;
+    display: flex;
+    margin-left: 30vw;
+    margin-top: -3.2vw;
+}
+#pijl-links {
+    width: 3.5vw;
+
+}
+#pijl-rechts {
+    width: 3.5vw;
+    margin-left: 15vw;
+    margin-left: 22vw;
+}
 #gloeilamp {
     margin-left: 65vw;
     max-width: 5vw;

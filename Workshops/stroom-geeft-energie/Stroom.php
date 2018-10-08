@@ -51,6 +51,11 @@
 <div id="border-buiten">
     <h1 id="border-buiten-tekst1">Stroom Geeft energy game.</h1>
 <p id="border-buiten-tekst2">het doel van dit spel is om het lampje van stroom te vorzien! lukt het jouw om het lampje te laten branden?</p>
+ <section id="flex-container-pijlen">
+     <img id="pijl-links" alt="pijl-links" src="img/pijl-links.png">
+     <img id="pijl-rechts" alt="pijl-rechts" src="img/pijl-rechts.png">
+ </section>
+
     <canvas id="border-spel">
 
 
