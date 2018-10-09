@@ -125,3 +125,20 @@ nav:after{
 
 }
 
+.box001 {
+    float: left;
+    width: 75px;
+    height: 15px;
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.box002 {
+    float: left;
+    width: 75px;
+    height: 15px;
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid white;
+}

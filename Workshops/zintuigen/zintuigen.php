@@ -51,7 +51,41 @@
 
 
 
+<p>Score: <text id="score001">0</text></p>
 
+<div class="box002" ondrop="drop001(event)">
+    <text ondragstart="dragStart001(event)" draggable="true" id="target001">Handen</text>
+</div>
+
+<div class="box002" ondrop="drop002(event)">
+    <text ondragstart="dragStart002(event)" draggable="true" id="target002">Mond</text>
+</div>
+
+<div class="box002" ondrop="drop003(event)">
+    <text ondragstart="dragStart003(event)" draggable="true" id="target003">Neus</text>
+</div>
+
+<div class="box002" ondrop="drop004(event)">
+    <text ondragstart="dragStart004(event)" draggable="true" id="target004">Oren</text>
+</div>
+
+<div class="box002" ondrop="drop005(event)">
+    <text ondragstart="dragStart005(event)" draggable="true" id="target005">Ogen</text>
+</div>
+<br /><br /><br /><br />
+
+<div class="box001" ondrop="drop006(event)" ondragover="allowDrop005(event)" id="place001">Kijken</div>
+
+<div class="box001" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002">Proeven</div>
+
+<div class="box001" ondrop="drop008(event)" ondragover="allowDrop004(event)" id="place003">Voelen</div>
+
+<div class="box001" ondrop="drop009(event)" ondragover="allowDrop001(event)" id="place004">Ruiken</div>
+
+<div class="box001" ondrop="drop010(event)" ondragover="allowDrop003(event)" id="place005">Luisteren</div><br /><br /><br />
+
+<button onclick="submit001()">Submit</button>
+<p id="message001"></p>
 
 
 
