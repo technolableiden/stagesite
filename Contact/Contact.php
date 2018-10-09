@@ -63,6 +63,9 @@
 
 </header>
 
+<i class="fa fa-phone" style="font-size:24px"></i>
+<i class="fa fa-envelope-o" style="font-size:24px"></i>
+<i class="fa fa-map-marker" style="font-size:24px"></i>
 
 
 
