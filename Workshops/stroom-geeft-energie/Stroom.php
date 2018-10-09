@@ -7,13 +7,12 @@
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
     <meta name="author" content="Ravi Breugom, Alexander Wallaard, Natascha van Baal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="60">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
     <title>Technolab Stagairspot</title>
 </head>
-<body>
+<body data-gr-c-s-loaded="true">
 <header>
     <div class="custom=padding">
         <nav>
@@ -67,11 +66,14 @@
         <img src="img/gloeilamp-uit.png"/>
         <img src="img/gloeilamp-aan.jpg" style="display:none;"/>
     </div>
-<img id="schakkelaar" src="img/schakkelaar.png"/>
-    <img id="schakkelaar2" src="img/schakkelaar.png"/>
+<div id="schakkelaar"><img id="target" style="transform: rotate(-126.828deg);"src="img/schakkelaar.png"/></div>
+    <script src="./bl.ocks.org_files/rotate.js.download"></script>
+    <div id="schakkelaar2"><img id="target2" style="transform: rotate(-126.828deg);" src="img/schakkelaar.png"/></div>
+    <script src="./bl.ocks.org_files/rotate2.js.download"></script>
 
 
-</div>
+
+
 
 
 

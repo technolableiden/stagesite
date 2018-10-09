@@ -40,18 +40,18 @@ body{
 }
 
 #schakkelaar2 {
-    margin-left: 12.78vw;
-    margin-bottom: 6.4vw;
+    margin-left: 55.7vw;
+    margin-top: -20vw;
     position: relative;
-    transform: rotate(90deg);
+    transform: rotate(37deg);
 
 
 }
 #schakkelaar {
-    margin-left: 39.75vw;
-    margin-top: 16.5vw;
+    margin-left: 35.2vw;
+    margin-top: 29.35vw;
     position: relative;
-    transform: rotate(90deg);
+    transform: rotate(37deg);
 }
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
