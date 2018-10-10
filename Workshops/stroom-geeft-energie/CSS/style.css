@@ -37,21 +37,34 @@ body{
     max-width: 5vw;
     max-height: 5vw;
     position: absolute;
-}
-
-#schakkelaar2 {
-    margin-left: 55.7vw;
-    margin-top: -20vw;
-    position: relative;
-    transform: rotate(37deg);
-
 
 }
-#schakkelaar {
-    margin-left: 35.2vw;
-    margin-top: 29.35vw;
+
+#target2 {
+    margin-left: 12.7vw;
+    margin-top: 9.6vw;
+    position: absolute;
+    -webkit-transform: rotate(269deg);
+    -moz-transform: rotate(269deg);
+    -ms-transform: rotate(269deg);
+    -o-transform: rotate(269deg);
+
+
+}
+#zetaan-knop {
+    position: absolute;
+    font-size: 1.3vw;
+    margin-left: -31vw;
+    margin-top: 23vw;
+}
+#target {
+    margin-left: 38.2vw;
+    margin-top: 15.75vw;
     position: relative;
-    transform: rotate(37deg);
+    -webkit-transform: rotate(269deg);
+    -moz-transform: rotate(269deg);
+    -ms-transform: rotate(269deg);
+    -o-transform: rotate(269deg);
 }
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;

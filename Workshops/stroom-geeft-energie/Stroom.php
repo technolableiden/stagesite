@@ -66,11 +66,11 @@
         <img src="img/gloeilamp-uit.png"/>
         <img src="img/gloeilamp-aan.jpg" style="display:none;"/>
     </div>
-<div id="schakkelaar"><img id="target" style="transform: rotate(-126.828deg);"src="img/schakkelaar.png"/></div>
+<img id="target" src="img/schakkelaar.png"/>
     <script src="./bl.ocks.org_files/rotate.js.download"></script>
-    <div id="schakkelaar2"><img id="target2" style="transform: rotate(-126.828deg);" src="img/schakkelaar.png"/></div>
+    <img id="target2" src="img/schakkelaar.png"/>
     <script src="./bl.ocks.org_files/rotate2.js.download"></script>
-
+<button id="zetaan-knop" onclick="activate()" >zet aan</button>
 
 
 
@@ -81,5 +81,86 @@
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
+    <script>
+
+
+</script>
+
+
+
+
+
+<!--
+    <script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       var el2 = document.getElementById("target2");
+       var st2 = window.getComputedStyle(el2, null);
+       var tr2 = st2.getPropertyValue("-webkit-transform") ||
+           st2.getPropertyValue("-moz-transform") ||
+           st2.getPropertyValue("-ms-transform") ||
+           st2.getPropertyValue("-o-transform") ||
+           st2.getPropertyValue("transform") ||
+           "FAIL";
+
+       // With rotate(30deg)...
+       // matrix(0.866025, 0.5, -0.5, 0.866025, 0px, 0px)
+       //console.log('Matrix: ' + tr);
+
+       // rotation matrix - http://en.wikipedia.org/wiki/Rotation_matrix
+
+       var values2 = tr2.split('(')[1].split(')')[0].split(',');
+       var a2 = values[0];
+       var b2 = values[1];
+       var c2 = values[2];
+       var d2 = values[3];
+
+       var scale2 = Math.sqrt(a2*a2 + b2*b2);
+
+       //console.log('Scale: ' + scale);
+
+       // arc sin, convert from radians to degrees, round
+       var sin2 = b2/scale2;
+       // next line works for 30deg but not 130deg (returns 50);
+        var angle2 = Math.round(Math.asin(sin2) * (180/Math.PI));
+      // var angle2 = Math.round(Math.atan2(b2, a2) * (180/Math.PI));
+
+       console.log('Rotate: ' + angle2 + 'deg');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    -->
 </body>
 </html>
