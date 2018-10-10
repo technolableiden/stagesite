@@ -62,11 +62,32 @@
     </div>
 
 </header>
-<div class="icons">
-<i class="fa fa-phone" style="font-size:24px"></i> <br>
-<i class="fa fa-envelope-o" style="font-size:24px"></i> <br>
-<i class="fa fa-map-marker" style="font-size:24px"></i> <br>
-</div>
+
+<table style="width:100%">
+    <tr>
+        <td><i class="fa fa-phone" style="font-size:24px"></i></td>
+        <td>071-5191324</td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-envelope-o" style="font-size:24px"></i></td>
+        <td>info@technolableiden.nl</td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-map-marker" style="font-size:24px"></i></td>
+        <td>Zweilandlaan 4 <br>
+            2334 CS Leiden</td>
+    </tr>
+    <tr>
+        <td><i class="fa fa-map-marker" style="font-size:24px"></i></td>
+        <td>Lange Sint Agnietenstraat 10<br>
+            2312 WC Leiden</td>
+    </tr>
+</table>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.8596116298677!2d4.483402715762222!3d52.17324587975001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c6c3d9cc79a9%3A0xac7435e685048c5d!2sZweilandlaan+4%2C+2334+CS+Leiden!5e0!3m2!1snl!2snl!4v1539163586723" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
