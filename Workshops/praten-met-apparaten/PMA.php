@@ -49,7 +49,7 @@
 
 </header>
 
-<h1>Blockchase</h1>
+<h1>Praten met apparaten</h1>
 <canvas id="trash">
 
 </canvas>
