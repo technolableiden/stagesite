@@ -124,3 +124,8 @@ nav:after{
     display: block;
 
 }
+
+table {
+    margin-top: 10%;
+    margin-left: 5%;
+}
