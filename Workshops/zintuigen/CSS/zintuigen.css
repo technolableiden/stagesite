@@ -151,11 +151,12 @@ nav:after{
 }
 
 #quiz button{
-   margin-left:calc(50% - 225px);
-    width:500px;
+    margin-left: calc(50% - 225px);
+    width:450px;
 }
 
 #quiz p{
-    text-align: left;
-    margin-top: -4px
+    text-align: center;
+    margin-top: -4px;
+    padding: 15px;
 }
