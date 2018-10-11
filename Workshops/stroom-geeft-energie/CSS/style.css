@@ -33,25 +33,52 @@ body{
     margin-left: 22vw;
 }
 #gloeilamp {
+
+
+}
+#lamp-aan {
+    visibility: hidden;
+    margin-top: -3.24vw;
+    margin-left: 63.5vw;
+    max-width: 18vw;
+    max-height: 18.5vw;
+    position: absolute;
+
+}
+#lamp-uit {
+    visibility: visible;
     margin-left: 65vw;
-    max-width: 5vw;
-    max-height: 5vw;
+    margin-top: .5vw;
+    max-width: 15vw;
+    max-height: 14vw;
     position: absolute;
 }
 
-#schakkelaar2 {
-    margin-left: 12.78vw;
-    margin-bottom: 6.4vw;
-    position: relative;
-    transform: rotate(90deg);
+#target2 {
+    margin-left: 12.7vw;
+    margin-top: 9.6vw;
+    position: absolute;
+    -webkit-transform: rotate(269deg);
+    -moz-transform: rotate(269deg);
+    -ms-transform: rotate(269deg);
+    -o-transform: rotate(269deg);
 
 
 }
-#schakkelaar {
-    margin-left: 39.75vw;
-    margin-top: 16.5vw;
+#zetaan-knop {
+    position: absolute;
+    font-size: 1.3vw;
+    margin-left: -31vw;
+    margin-top: 23vw;
+}
+#target {
+    margin-left: 38.2vw;
+    margin-top: 15.75vw;
     position: relative;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(269deg);
+    -moz-transform: rotate(269deg);
+    -ms-transform: rotate(269deg);
+    -o-transform: rotate(269deg);
 }
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
