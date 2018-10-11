@@ -52,6 +52,7 @@ body{
     max-width: 15vw;
     max-height: 14vw;
     position: absolute;
+
 }
 
 #target2 {
@@ -62,6 +63,7 @@ body{
     -moz-transform: rotate(269deg);
     -ms-transform: rotate(269deg);
     -o-transform: rotate(269deg);
+    transform: rotate(269deg);  
 
 
 }
@@ -79,6 +81,7 @@ body{
     -moz-transform: rotate(269deg);
     -ms-transform: rotate(269deg);
     -o-transform: rotate(269deg);
+    transform: rotate(269deg);
 }
 #border-buiten-tekst2 {
     font-family: 'Raleway', sans-serif;
