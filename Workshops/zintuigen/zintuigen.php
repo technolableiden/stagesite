@@ -50,36 +50,43 @@
 </header>
 
 
+<div id="quiz">
+<p>Score: <text id="score001">0</text></p>
 
-<div class="quiz-wrapper">
-    <p class="question-description">Fill in the blanks by dragging the missing answer.</p>
-    <ul class="options">
-        <li class="title">Options</li>
-        <li class="option" data-target="carraway">Nick Carraway</li>
-        <li class="option" data-target="fitz">F. Scott Fitzgerald</li>
-        <li class="option" data-target="westegg">West Egg</li>
-        <li class="option" data-target="buchanan">Tom Buchanan</li>
-        <li class="option" data-target="daisy">Daisy</li>
-        <li class="option" data-target="ashes">Valley of Ashes</li>
-    </ul>
-    <div class="answers">
-        <ol>
-            <li><span class="target" data-accept="fitz">&nbsp;</span>, a native of St Paul, Minnesota, and also a member of the "Lost Generation" finished four novels including "This Side of Paradise".</li>
-            <li><span class="target" data-accept="carraway">&nbsp;</span> attended Yale with the large and brooding<span class="target" data-accept="buchanan">&nbsp;</span>.</li>
-            <li>George Wilson owns an unsuccessful garage in an area known as the <span class="target" data-accept="ashes">&nbsp;</span>, where Tom brings Nick for a party.</li>
-            <li>Jay Gatsby, the Buchanans, and Nick himself all make<span class="target" data-accept="westegg">&nbsp;</span>their home.</li>
-        </ol>
-    </div>
-    <button type="submit" value="submit">Submit</button>
-    <div class="lightbox-bg"></div>
-    <div class="status confirm">
-        <p>All Answers Answered</p>
-    </div>
-    <div class="status deny">
-        <p>Answers Remain</p>
-    </div>
+<div class="box002" ondrop="drop001(event)">
+    <text ondragstart="dragStart001(event)" draggable="true" id="target001">Handen</text>
 </div>
 
+<div class="box002" ondrop="drop002(event)">
+    <text ondragstart="dragStart002(event)" draggable="true" id="target002">Mond</text>
+</div>
+
+<div class="box002" ondrop="drop003(event)">
+    <text ondragstart="dragStart003(event)" draggable="true" id="target003">Neus</text>
+</div>
+
+<div class="box002" ondrop="drop004(event)">
+    <text ondragstart="dragStart004(event)" draggable="true" id="target004">Oren</text>
+</div>
+
+<div class="box002" ondrop="drop005(event)">
+    <text ondragstart="dragStart005(event)" draggable="true" id="target005">Ogen</text>
+</div>
+<br /><br /><br /><br />
+
+<div class="box001" ondrop="drop006(event)" ondragover="allowDrop005(event)" id="place001">Kijken</div>
+
+<div class="box001" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002">Proeven</div>
+
+<div class="box001" ondrop="drop008(event)" ondragover="allowDrop004(event)" id="place003">Voelen</div>
+
+<div class="box001" ondrop="drop009(event)" ondragover="allowDrop001(event)" id="place004">Ruiken</div>
+
+<div class="box001" ondrop="drop010(event)" ondragover="allowDrop003(event)" id="place005">Luisteren</div><br /><br /><br />
+
+<button onclick="submit001()">Submit</button>
+<p id="message001"></p>
+</div>
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
