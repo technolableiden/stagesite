@@ -50,7 +50,7 @@
 </header>
 
 
-
+<div id="quiz">
 <p>Score: <text id="score001">0</text></p>
 
 <div class="box002" ondrop="drop001(event)">
@@ -86,7 +86,7 @@
 
 <button onclick="submit001()">Submit</button>
 <p id="message001"></p>
-
+</div>
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
