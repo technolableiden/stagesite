@@ -33,11 +33,25 @@ body{
     margin-left: 22vw;
 }
 #gloeilamp {
-    margin-left: 65vw;
-    max-width: 5vw;
-    max-height: 5vw;
+
+
+}
+#lamp-aan {
+    visibility: hidden;
+    margin-top: -3.24vw;
+    margin-left: 63.5vw;
+    max-width: 18vw;
+    max-height: 18.5vw;
     position: absolute;
 
+}
+#lamp-uit {
+    visibility: visible;
+    margin-left: 65vw;
+    margin-top: .5vw;
+    max-width: 15vw;
+    max-height: 14vw;
+    position: absolute;
 }
 
 #target2 {
