@@ -73,6 +73,13 @@ body{
     margin-left: -31vw;
     margin-top: 23vw;
 }
+#zetuit-knop {
+    position: absolute;
+    font-size: 1.3vw;
+    margin-left: -31vw;
+    margin-top: 23vw;
+    visibility: hidden;
+}
 #target {
     margin-left: 38.2vw;
     margin-top: 15.75vw;

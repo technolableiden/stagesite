@@ -70,9 +70,8 @@
     <script src="./bl.ocks.org_files/rotate.js.download"></script>
     <img id="target2" src="img/schakkelaar.png"/>
     <script src="./bl.ocks.org_files/rotate2.js.download"></script>
-    <button id="zetaan-knop" onclick="activate()">zet aan</button>
+    <button id="zetaan-knop" onclick="activate()">uit/aan</button>
     <script src="js/js.js"></script>
-
 
     <footer id="copyright">&copy; Technolab Leiden</footer>
 
