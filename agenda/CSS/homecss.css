@@ -78,7 +78,13 @@ nav:after{
     color:#F7F7F7;
 }
 
-
+#grote-blok{
+    width: 70vw;
+    height: 40vw;
+    margin-top: 4vw;
+    margin-left: 10vw;
+    background-color: #8CC63E;
+}
 .dropdown {
     float: right;
     overflow: hidden;

@@ -23,12 +23,12 @@
 <header>
     <div class="custom=padding">
         <nav>
-    <a href="#"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+    <a href="../beveiligd.php"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
-                <li><a href="Workshops/Workshop.php">Workshops</a></li>
+                <li><a href="../Workshops/Workshop.php">Workshops</a></li>
                 <li><a href="#">Agenda</a></li>
                 <li><a href="#">Leerdoelen</a></li>
-                <li><a href="Contact/contact.php">Contact</a></li>
+                <li><a href="../Contact/contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
                         <i class="fa fa-caret-down"></i>
@@ -55,8 +55,8 @@
     </div>
 
 </header>
-<div id="welkomblok">
-    <h1>Welkom <?php echo $_SESSION['username'];?></h1>
+<div id="grote-blok">
+
 </div>
 
 </body>
