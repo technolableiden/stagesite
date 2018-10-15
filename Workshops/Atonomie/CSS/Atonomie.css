@@ -142,3 +142,17 @@ nav:after{
     padding: 15px;
     border: 1px solid white;
 }
+
+.div1{
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#drag1{
+    width: 88px;
+    height: 31px;
+}

@@ -49,6 +49,39 @@
 
 </header>
 
+<img src="img/lichaam.jpg">
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/hart-cartoon.png" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/nieren.jpg" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/dikkedarm.png" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/dunne-darm1.png" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="img/longen.jpg" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 
 
