@@ -13,19 +13,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Technolab Stagairspot</title>
 	
-	<?php
-// connect and login to FTP server
-$ftp_server = "185.114.157.172";
-$ftp_username = "bob@spelsalon.net";
-$ftp_userpass = "debouwer";
-$ftp_conn = ftp_connect($ftp_server) or die("Could not connect to $ftp_server");
-$login = ftp_login($ftp_conn, $ftp_username, $ftp_userpass);
 
-// then do something...
 
-// close connection
-ftp_close($ftp_conn); 
-?>
+
+    <?php
+    // set up basic SSL connection
+    $ftp_server = "185.114.157.172";
+    $ftp_username = "bob@spelsalon.net";
+    $ftp_userpass = "debouwer";
+
+    $ftp_conn = ftp_ssl_connect($ftp_server) or die("Could not connect to $ftp_server");
+
+    // login
+    $login = ftp_login($ftp_conn, $ftp_username, $ftp_userpass);
+
+    // then do something...
+
+    // close SSL connection
+    ?>
+
+
 
     <style>
 
@@ -70,12 +77,14 @@ ftp_close($ftp_conn);
 
 </header>
 <div id="grote-blok">
-    <img src="ftp://me.jpg"/>
-<img src="/home/spelsalo/domains/spelsalon.net/public_ftp/me.jpg"/>
+    <h1 id="h-agenda">Agenda</h1>
+    <iframe id="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRbCxqVS2tcQLOPnyLmroa3oMdWvUPEMjB_I5wOXSN6bujL_fjIiiRCJAl3ZbBbgSj7vdNu-ywoO5AN/pubhtml?gid=1348854223&amp;single=true&amp;widget=true&amp;headers=false" style="width: 885px; height: 340px; margin-left: 10vw; margin-top: 7vw;"></iframe>
 </div>
 
 </body>
 
+
+?>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
