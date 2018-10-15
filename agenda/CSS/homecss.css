@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@
     margin-left: 8vw;
     margin-top: 7vw;
 }
+
 body{
     background-color: #F7F7F7;
 }
@@ -34,8 +36,18 @@ body{
 }
 #h-agenda {
     position: absolute;
-    margin-left: 10vw !important;
+    margin-left: 34vw !important;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2vw;
 
+
+}
+#blok-info {
+    font-family: 'Raleway', sans-serif;
+    width: 20vw;
+    margin-top: 1.5vw;
+    margin-left: 25vw;
+    text-align: center;
 }
 .custom-padding{
 
