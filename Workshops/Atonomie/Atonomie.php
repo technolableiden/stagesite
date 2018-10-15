@@ -49,7 +49,7 @@
 
 </header>
 
-
+<img src="img/lichaam.jpg">
 
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
