@@ -78,7 +78,7 @@
 </header>
 <div id="grote-blok">
     <h1 id="h-agenda">Agenda</h1>
-    <iframe id="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRbCxqVS2tcQLOPnyLmroa3oMdWvUPEMjB_I5wOXSN6bujL_fjIiiRCJAl3ZbBbgSj7vdNu-ywoO5AN/pubhtml?gid=1348854223&amp;single=true&amp;widget=true&amp;headers=false" style="width: 885px; height: 340px; margin-left: 10vw; margin-top: 7vw;"></iframe>
+    <iframe id="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRbCxqVS2tcQLOPnyLmroa3oMdWvUPEMjB_I5wOXSN6bujL_fjIiiRCJAl3ZbBbgSj7vdNu-ywoO5AN/pubhtml?gid=1348854223&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 <!--link om sheet aan te passen: https://docs.google.com/spreadsheets/d/1YjCc5LHqA4otVWVo9Co5mBFEbtXvbFvpji_fC7hoQGI/edit#gid=1348854223 -->
 </div>
 
