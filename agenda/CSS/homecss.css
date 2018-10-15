@@ -6,6 +6,10 @@
     box-sizing: border-box;
 
 }
+#excel {
+    width: 300vw !important;
+    height: 300vw !important;
+}
 body{
     background-color: #F7F7F7;
 }
@@ -25,6 +29,11 @@ body{
 .menu-area li{
     list-style: none;
     display: inline-block;
+}
+#h-agenda {
+    position: absolute;
+    margin-left: 10vw !important;
+
 }
 .custom-padding{
 
