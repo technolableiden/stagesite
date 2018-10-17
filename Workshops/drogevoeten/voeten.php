@@ -47,16 +47,19 @@
     </div>
 
 </header>
+
+
+
+
 <div id="border-buiten">
+    <p id="tekst-boven">bij deze game moet je het water van punt a naar punt b brengen. Lukt het jouw?</p>
 
-    <canvas id="border-spel">
+
+    <iframe id="spel" src="https://funhtml5games.com?embed=pipemania" style="width:750px;height:550px;border:none;" frameborder="0" scrolling="no"></iframe>
 
 
-    </canvas>
-    <div id="recht-box">
 
-    </div>
-    <p id="tekst-onder">bij deze game moet je het water van punt a naar punt b brengen. Lukt het jouw?</p>
+
 
 
 </div>

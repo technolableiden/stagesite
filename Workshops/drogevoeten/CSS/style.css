@@ -69,6 +69,10 @@ nav{
     border: solid;
     border-color: #333333;
 }
+#spel {
+margin-left: 17vw;
+    margin-top: 7vw;
+}
 
 #recht-box {
     background-color: beige;
@@ -78,13 +82,13 @@ nav{
     height 4vw;
     position: absolute;
 }
-#tekst-onder {
+#tekst-boven {
     position: absolute;
-    margin-top: 34.2vw;
+    margin-top: 1.2vw;
     border: solid;
     border-color: #333333;
-    margin-left: 23vw;
-    width: 10vw;
+    margin-left: 38vw;
+    width: 9vw;
     text-align: center;
 
 }
