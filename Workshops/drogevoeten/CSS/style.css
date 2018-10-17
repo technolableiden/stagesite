@@ -58,26 +58,35 @@ nav{
     margin-left: -2vw;
     margin-top: .5vw;
     width:50vw !important;
-    height: 36vw;
+    height: 34vw;
 }
 #border-buiten {
     margin-left: calc( 30vw -  450px );
     margin-top: 4.4vw;
-    width: 1650px;
-    height: 40vw;
+    width: 86.2vw;
+    height: 38.5vw;
     background-color: #8CC63E;
     border: solid;
     border-color: #333333;
 }
 
 #recht-box {
-    background-color: white;
+    background-color: beige;
     margin-left: 55.5vw;
-    padding-bottom: 40vw !important;
+    padding-bottom: 38.2vw !important;
     width: 29.6vw;
-    height 10vw;
+    height 4vw;
     position: absolute;
-    max-height: 2vw;
+}
+#tekst-onder {
+    position: absolute;
+    margin-top: 34.2vw;
+    border: solid;
+    border-color: #333333;
+    margin-left: 23vw;
+    width: 10vw;
+    text-align: center;
+
 }
 .logo{
     width: 20vh;

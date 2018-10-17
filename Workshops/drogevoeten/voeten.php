@@ -56,6 +56,7 @@
     <div id="recht-box">
 
     </div>
+    <p id="tekst-onder">bij deze game moet je het water van punt a naar punt b brengen. Lukt het jouw?</p>
 
 
 </div>
