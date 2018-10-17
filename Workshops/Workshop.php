@@ -68,8 +68,8 @@
         <div class="Workshopblok"><h1>Atonomie</h1></br>
             <a href="Atonomie/Atonomie.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Praten met apparaten</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+        <div class="Workshopblok"><h1>Droge voeten</h1></br>
+            <a href="drogevoeten/voeten.php">Klik hier</a></div>
 
         <div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
             <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
