@@ -76,8 +76,8 @@
     </div>
 
     <div class="workshop-flex">
-        <div class="Workshopblok"><h1>Zintuigen</h1></br>
-            <a href="Zintuigen/Zintuigen.php">Klik hier</a></div>
+        <div class="Workshopblok"><h1>bruggenbouwen</h1></br>
+            <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
 
         <div class="Workshopblok"><h1>Praten met apparaten</h1></br>
             <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
