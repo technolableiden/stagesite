@@ -22,6 +22,22 @@ body{
     position: relative;
     z-index: 1;
 }
+#bordie {
+    height: 30vw;
+    width: 70vw;
+    margin-left: -7.5vw;
+    margin-top: 5vw;
+    background-color: #8CC63E;
+}
+.flex {
+    display: flex;
+}
+#border-rechts {
+    background-color: #dddddd;
+    width: 20vw;
+    height: 30vw;
+    margin-top: 5vw;
+}
 .menu-area li{
     list-style: none;
     display: inline-block;
