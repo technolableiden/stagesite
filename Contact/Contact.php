@@ -74,9 +74,13 @@
     </tr>
 </table>
 
+    <div class="item2" ><iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.8596116298677!2d4.483402715762222!3d52.17324587975001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c6c3d9cc79a9%3A0xac7435e685048c5d!2sZweilandlaan+4%2C+2334+CS+Leiden!5e0!3m2!1snl!2snl!4v1539163586723" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+</div>
+
 <h3>Contact Form</h3>
 
-<div class="item2">
+<div class="item">
     <form action="/">
         <label for="fname">Voornaam</label>
         <input type="text" id="fname" name="firstname" placeholder="Voornaam.."><br><br>
@@ -94,10 +98,6 @@
         <input type="submit" value="Submit">
     </form>
 </div>
-</div>
-
-<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.8596116298677!2d4.483402715762222!3d52.17324587975001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c6c3d9cc79a9%3A0xac7435e685048c5d!2sZweilandlaan+4%2C+2334+CS+Leiden!5e0!3m2!1snl!2snl!4v1539163586723" frameborder="0" style="border:0" allowfullscreen></iframe>
-
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
