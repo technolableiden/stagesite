@@ -22,6 +22,15 @@ body{
     position: relative;
     z-index: 1;
 }
+#game-tekst {
+    width: 18vw;
+    position: absolute;
+    border: solid;
+    border-color: #8CC63E;
+    margin-top: .4vw;
+    margin-left: 40.3vw;
+    padding-left: 1vw;
+}
 #bordie {
     height: 30vw;
     width: 70vw;

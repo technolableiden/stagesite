@@ -52,6 +52,7 @@
     </div>
 
 </header>
+    <div id="game-tekst"><p>Bij deze game krijg je een inleiding hoe bruggenbouwen in zijn werking zit, zodra je de brug op een juiste manier heb gemaakt dan rijd er een autotje overeen.</p></div>
     <section class="flex">
 <div id="bordie"></div>
 <div id="border-rechts"></div>
