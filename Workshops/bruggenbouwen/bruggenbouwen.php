@@ -23,7 +23,7 @@
 <header>
     <div class="custom=padding">
         <nav>
-            <a href="../beveiligd.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+            <a href="../beveiligd.php"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
                 <li><a href="#">Workshops</a></li>
                 <li><a href="../agenda/agenda.php">Agenda</a></li>
@@ -53,38 +53,7 @@
 
 </header>
 
-<div class="workshop-flex">
-<div class="Workshopblok"><h1>Zintuigen</h1></br>
-<a href="Zintuigen/Zintuigen.php">Klik hier</a></div>
 
-<div class="Workshopblok"><h1>Praten met apparaten</h1></br>
-<a href="praten-met-apparaten/PMA.php">Klik hier</a></div>
-
-<div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
-<a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
-</div>
-
-    <div class="workshop-flex">
-        <div class="Workshopblok"><h1>Atonomie</h1></br>
-            <a href="Atonomie/Atonomie.php">Klik hier</a></div>
-
-        <div class="Workshopblok"><h1>Droge voeten</h1></br>
-            <a href="drogevoeten/voeten.php">Klik hier</a></div>
-
-        <div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
-    </div>
-
-    <div class="workshop-flex">
-        <div class="Workshopblok"><h1>bruggenbouwen</h1></br>
-            <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
-
-        <div class="Workshopblok"><h1>Praten met apparaten</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
-
-        <div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
-    </div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
