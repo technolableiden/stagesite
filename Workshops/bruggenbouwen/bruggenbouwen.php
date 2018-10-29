@@ -26,7 +26,7 @@
             <ul class="menu-area">
                 <li><a href="../workshop.php">Workshops</a></li>
                 <li><a href="../../agenda/agenda.php">Agenda</a></li>
-                <li><a href="#">Leerdoelen</a></li>
+                <li><a href="../../leerdoelen/leerdoelen.php">Leerdoelen</a></li>
                 <li><a href="../../Contact/Contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;

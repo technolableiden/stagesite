@@ -25,9 +25,9 @@
         <nav>
             <a href="../beveiligd.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
-                <li><a href="#">Workshops</a></li>
+                <li><a href="Workshop.php">Workshops</a></li>
                 <li><a href="../agenda/agenda.php">Agenda</a></li>
-                <li><a href="#">Leerdoelen</a></li>
+                <li><a href="../leerdoelen/leerdoelen.php">Leerdoelen</a></li>
                 <li><a href="../Contact/Contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
@@ -76,11 +76,11 @@
     </div>
 
     <div class="workshop-flex">
-        <div class="Workshopblok"><h1>bruggenbouwen</h1></br>
+        <div class="Workshopblok"><h1>Atonomie</h1></br>
             <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Praten met apparaten</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+        <div class="Workshopblok"><h1>Bruggenbouwen</h1></br>
+            <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
 
         <div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
             <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
