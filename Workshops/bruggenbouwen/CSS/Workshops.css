@@ -22,6 +22,26 @@ body{
     position: relative;
     z-index: 1;
 }
+#bridge1 {
+    transform: rotate(-5deg);
+    width: 20vw;
+    margin-top: -5vw;
+}
+#bridge2{
+    transform: rotate(-5deg);
+    width: 20vw;
+    margin-top: -10vw;
+}
+#bridge3 {
+    transform: rotate(-5deg);
+    width: 20vw;
+    margin-top: -10.2vw;
+}
+#gamie {
+    position: absolute;
+    margin-left: 18.5vw;
+    margin-top: 5.6vw;
+}
 #game-tekst {
     width: 18vw;
     position: absolute;
@@ -33,8 +53,8 @@ body{
 }
 #bordie {
     height: 30vw;
-    width: 70vw;
-    margin-left: -7.5vw;
+    width: 45vw;
+    margin-left: 29.5vw;
     margin-top: 5vw;
     background-color: #8CC63E;
 }

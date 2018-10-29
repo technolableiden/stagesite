@@ -8,7 +8,6 @@
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
     <meta name="author" content="Ravi Breugom, Alexander Wallaard, Natascha van Baal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="60">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Technolab Stagairspot</title>
@@ -52,11 +51,21 @@
     </div>
 
 </header>
+
     <div id="game-tekst"><p>Bij deze game krijg je een inleiding hoe bruggenbouwen in zijn werking zit, zodra je de brug op een juiste manier heb gemaakt dan rijd er een autotje overeen.</p></div>
-    <section class="flex">
+    <embed id="gamie" src="http://games.engineering.com/cargobridge/bridge.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="800" height="550" wmode="Opaque">
+
 <div id="bordie"></div>
-<div id="border-rechts"></div>
+    <!--<section class="flex">
+<div id="border-rechts">
+    <img id="bridge1" src="img/bridge.png"/>
+    <img id="bridge2" src="img/bridge1.png"/>
+    <img id="bridge3" src="img/bridge2.png"/>
+
+</div>
     </section>
+    -->
+
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
