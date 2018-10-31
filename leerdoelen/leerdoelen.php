@@ -52,20 +52,22 @@
     </div>
 </header>
 
+<div id="big-border"></div>
 <section id="lange-border">
-    <div id="border1"></div>
-    <div id="border2"></div>
-    <div id="border3"></div>
-    <div id="border4"></div>
-    <div id="border5"></div>
-    <div id="border6"></div>
-    <div id="border7"></div>
-    <div id="border8"></div>
-    <div id="border9"></div>
-    <div id="border10"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
+    <div class="bordes"></div>
 
 
 </section>
+<h1 id="meter">10-METER</h1>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
