@@ -68,6 +68,10 @@
 
 </section>
 <h1 id="meter">10-METER</h1>
+<div id="box2"></div>
+<h1 id="checklist">checklist</h1>
+<div id="box3"></div>
+<h1 id="boom">Boo!</h1>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
