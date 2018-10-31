@@ -72,7 +72,7 @@
             <a href="drogevoeten/voeten.php">Klik hier</a></div>
 
         <div class="Workshopblok"><h1>Microbiologie</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+            <a href="microbiologie/microbiologie.php">Klik hier</a></div>
     </div>
 
     <div class="workshop-flex">
