@@ -10,7 +10,58 @@ body{
     background-color: #F7F7F7;
 
 }
+#lange-border {
+    border: solid black;
+    display: flex;
+    margin-left: 17.5vw;
+    margin-top: 8vw;
+    position: absolute;
 
+}
+#meter {
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 40vw;
+}
+#box2 {
+    width: 23.5vw;
+    height: 43vw;
+    margin-left: 75vw;
+    margin-top: 2vw;
+    background-color: #8CC63E;
+}
+#checklist {
+    margin-left: 84vw;
+    margin-top: -30vw;
+    position: absolute;
+}
+#box3 {
+    position: absolute;
+    width: 60vw;
+    height: 26vw;
+    margin-left: 12.7vw;
+    margin-top: -26vw;
+    background-color: #8CC63E;
+}
+#boom {
+    position: absolute;
+    margin-top: -17vw;
+    margin-left: 42vw;
+}
+.bordes {
+    border: solid black;
+    height: 5vw;
+    width: 5vw;
+
+}
+#big-border {
+    position: absolute;
+    width: 60vw;
+    height: 15vw;
+    margin-left: 12.7vw;
+    margin-top: 2vw;
+    background-color: #8CC63E;
+}
 .menu-area li a{
     text-decoration: none;
     color: #F7F7F7;
