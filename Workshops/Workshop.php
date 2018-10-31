@@ -71,7 +71,7 @@
         <div class="Workshopblok"><h1>Praten met apparaten</h1></br>
             <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
+        <div class="Workshopblok"><h1>Microbiologie</h1></br>
             <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
     </div>
 
