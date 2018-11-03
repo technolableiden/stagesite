@@ -72,6 +72,7 @@
 <h1 id="checklist">checklist</h1>
 <div id="box3"></div>
 <h1 id="boom">Boo!</h1>
+<img id="trap" src="img/trap.gif"/>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
