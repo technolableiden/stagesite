@@ -51,21 +51,21 @@ function drop007(event) {
     var data = event.dataTransfer.getData("choice002");
     event.target.appendChild(document.getElementById(data));
     score001.innerHTML = b++;
-    place002.innerHTML = "Mond";
+    place002.innerHTML = "<img src="../Atonomie/img/longen.jpg">";
 }
 
 function drop008(event) {
     var data = event.dataTransfer.getData("choice001");
     event.target.appendChild(document.getElementById(data));
     score001.innerHTML = b++;
-    place003.innerHTML = "Handen";
+    place003.innerHTML = "<img src="../Atonomie/img/hart-cartoon.png">";
 }
 
 function drop009(event) {
     var data = event.dataTransfer.getData("choice003");
     event.target.appendChild(document.getElementById(data));
     score001.innerHTML = b++;
-    place004.innerHTML = "Neus";
+    place004.innerHTML = "src="../Atonomie/img/dunne-darm1.png">";
 }
 
 function drop010(event) {
@@ -103,5 +103,4 @@ function submit001() {
     else{
         message001.innerHTML = "Nog een paar vegeten.";
     }
-}
 }
