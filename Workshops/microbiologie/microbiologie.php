@@ -47,7 +47,7 @@
 
 </header>
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/258525046/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe class="microbio" allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/258525046/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
