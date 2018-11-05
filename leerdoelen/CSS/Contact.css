@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
 *{
     margin: 0;
     padding: 0;
@@ -20,8 +23,9 @@ body{
 }
 #rij1 {
     display: flex;
+    margin-left: 20vw;
+    margin-top: -20vw;
     position: absolute;
-
 
 
 
@@ -37,13 +41,24 @@ body{
 .rijen {
     background-color: black;
     margin-left: 3vw;
+    font-family: 'Raleway', sans-serif;
     width: 4vw;
     height: 4vw;
 
 
 }
+.checkboxen {
+    margin-top: 2.6vw;
+}
 #checkform {
-
+    width: 23.5vw;
+    height: 43.5vw;
+    text-align: center;
+    margin-left: 75vw;
+    margin-top: -44.8vw;
+    font-size: 2vw;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
 }
 #meter {
     position: absolute;
@@ -56,11 +71,6 @@ body{
     margin-left: 75vw;
     margin-top: 2vw;
     background-color: #8CC63E;
-}
-#checklist {
-    margin-left: 84vw;
-    margin-top: -30vw;
-    position: absolute;
 }
 #box3 {
     position: absolute;

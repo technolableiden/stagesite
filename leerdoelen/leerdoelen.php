@@ -69,7 +69,7 @@
 </section>
 <h1 id="meter">10-METER</h1>
 <div id="box2"></div>
-<h1 id="checklist">checklist</h1>
+
 <div id="box3"></div>
 <h1 id="boom">Boo!</h1>
 <img id="trap" src="img/trap.gif"/>
@@ -97,16 +97,16 @@
 -->
 
 <form id="checkform" action="checkver.php">
-<input type="checkbox" name="spel1" value="spel1">Spel 1</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 2</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 3</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 4</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 5</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 6</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 7</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 8</br>
-<input type="checkbox" name="spel1" value="spel1">Spel 9</br>
-<button type="submit">Geselecteerde toevoegen</button>
+<input type="checkbox" class="checkboxen" name="zintuigen" value="zintuigen">Zintuigen</br>
+<input type="checkbox" class="checkboxen" name="praten met apparaten" value="praten met apparaten">Praten met apparaten</br>
+<input type="checkbox" class="checkboxen" name="stroom geeft energie" value="stroom geeft energy">Stroom geeft energie</br>
+<input type="checkbox" class="checkboxen" name="Atonomie" value="Atonomie">Atonomie</br>
+<input type="checkbox" class="checkboxen" name="Droge voeten" value="Droge voeten">Droge voeten</br>
+<input type="checkbox" class="checkboxen" name="stroom geeft energie" value="Stroom geeft energie">Stroom geeft energie</br>
+<input type="checkbox" class="checkboxen "name="Atonomie" value="Atonomie">Atonomie</br>
+<input type="checkbox" class="checkboxen" name="Bruggenbouwen" value="Bruggenbouwen">Bruggenbouwen</br>
+<input type="checkbox" class="checkboxen"name="Stroom geeft energie" value="Stroom geeft energie">Stroom geeft energie</br>
+<button class="checkboxen" type="submit">Geselecteerde toevoegen</button>
 </form>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
