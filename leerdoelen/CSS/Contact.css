@@ -18,6 +18,33 @@ body{
     position: absolute;
 
 }
+#rij1 {
+    display: flex;
+    position: absolute;
+
+
+
+
+}
+#rij2 {
+    display: flex;
+    position: absolute;
+}
+#rij3 {
+    display: flex;
+    position: absolute;
+}
+.rijen {
+    background-color: black;
+    margin-left: 3vw;
+    width: 4vw;
+    height: 4vw;
+
+
+}
+#checkform {
+
+}
 #meter {
     position: absolute;
     margin-top: 3vw;

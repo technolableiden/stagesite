@@ -73,6 +73,41 @@
 <div id="box3"></div>
 <h1 id="boom">Boo!</h1>
 <img id="trap" src="img/trap.gif"/>
+
+<!--
+<section id="rij1">
+    <div class="rijen"></div>
+    <div class="rijen"></div>
+    <div class="rijen"></div>
+</section>
+<section id="rij2">
+    <div class="rijen"></div>
+    <div class="rijen"></div>
+    <div class="rijen"></div>
+</section>
+<section id="rij3">
+    <div class="rijen"></div>
+    <div class="rijen"></div>
+    <div class="rijen"></div>
+</section>
+
+
+
+</section>
+-->
+
+<form id="checkform" action="checkver.php">
+<input type="checkbox" name="spel1" value="spel1">Spel 1</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 2</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 3</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 4</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 5</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 6</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 7</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 8</br>
+<input type="checkbox" name="spel1" value="spel1">Spel 9</br>
+<button type="submit">Geselecteerde toevoegen</button>
+</form>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
