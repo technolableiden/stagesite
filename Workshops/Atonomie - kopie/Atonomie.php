@@ -49,7 +49,7 @@
 </header>
 
 
-<iframe allowtransparency="true" id="Elementen" width="485" height="402" src="//scratch.mit.edu/projects/embed/258520090/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" id="Elementen" height="402" src="//scratch.mit.edu/projects/embed/258520090/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 
 

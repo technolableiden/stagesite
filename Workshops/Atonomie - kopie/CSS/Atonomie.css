@@ -124,4 +124,8 @@ nav:after{
     display: block;
 
 }
-
+#Elementen{
+    margin-top: 200px;
+    width: 486px;
+    margin-left: calc(50vw - 500px);
+}
