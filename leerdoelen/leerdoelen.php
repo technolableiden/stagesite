@@ -108,6 +108,7 @@
 <input type="checkbox" class="checkboxen"name="Stroom geeft energie" value="Stroom geeft energie">Stroom geeft energie</br>
 <button class="checkboxen" type="submit">Geselecteerde toevoegen</button>
 </form>
+<img src="img/boom.png" alt="boom" id="boom"/>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
