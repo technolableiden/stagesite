@@ -52,7 +52,7 @@
 
 </header>
 
-    <div id="game-tekst"><p>Bij deze game krijg je een inleiding hoe bruggenbouwen in zijn werking zit, zodra je de brug op een juiste manier heb gemaakt dan rijd er een autotje overeen.</p></div>
+    <div id="game-tekst"><p>Bij deze game krijg je een inleiding hoe bruggebouwen in zijn werking zit, zodra je de brug op een juiste manier heb gemaakt dan rijd er een autootje overeen.</p></div>
     <embed id="gamie" src="http://games.engineering.com/cargobridge/bridge.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="800" height="550" wmode="Opaque">
 
 <div id="bordie"></div>

@@ -49,7 +49,7 @@
 </header>
 <div id="border-buiten">
     <h1 id="border-buiten-tekst1">Stroom Geeft energy game.</h1>
-    <p id="border-buiten-tekst2">het doel van dit spel is om het lampje van stroom te voorzien! lukt het jou om het
+    <p id="border-buiten-tekst2">Het doel van dit spel is om het lampje van stroom te voorzien! Lukt het jou om het
         lampje te laten branden?</p>
     <section id="flex-container-pijlen">
         <img id="pijl-links" alt="pijl-links" src="img/pijl-links.png">

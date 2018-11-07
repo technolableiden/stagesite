@@ -71,7 +71,6 @@
 <div id="box2"></div>
 
 <div id="box3"></div>
-<h1 id="boom">Boo!</h1>
 <img id="trap" src="img/trap.gif"/>
 
 <!--
