@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <script src="js/js.js"></script>
@@ -46,9 +46,9 @@
     </div>
 
 </header>
-
+<div class="attratie">
 <iframe src="https://www.silvergames.com/en/rollercoaster-creator-2/iframe" width="640" height="480" style="margin:0;padding:0;border:0"></iframe>
-
+</div>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
