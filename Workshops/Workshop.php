@@ -27,7 +27,26 @@
             position: absolute;
 
         }
-        
+        #blok2 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 370px;
+            margin-left: 801px;
+            position: absolute;
+
+        }
+        #blok3 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 370px;
+            margin-left: 1436px;
+            position: absolute;
+
+        }
     </style>
 </head>
 <div>
@@ -63,30 +82,24 @@
     </div>
 
 </header>
-    <section id="blokkenrij1">
     <div id="blok1"></div>
     <div id="blok2"></div>
     <div id="blok3"></div>
-    </section>
-    <section id="blokkenrij2">
     <div id="blok4"></div>
     <div id="blok5"></div>
     <div id="blok6"></div>
-    </section>
-    <section id="blokkenrij3">
     <div id="blok7"></div>
     <div id="blok8"></div>
     <div id="blok9"></div>
-    </section>
 
 <div class="workshop-flex">
 <div onmouseover="mousein1()" onmouseleave="mouseout1()" class="Workshopblok"><h1>Zintuigen</h1></br>
 <a href="Zintuigen/Zintuigen.php">Klik hier</a></div>
 
-<div class="Workshopblok"><h1>Praten met apparaten</h1></br>
+<div onmouseover="mousein2()" onmouseleave="mouseout2()" class="Workshopblok"><h1>Praten met apparaten</h1></br>
 <a href="praten-met-apparaten/PMA.php">Klik hier</a></div>
 
-<div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
+<div onmouseover="mousein3()" onmouseleave="mouseout3()" class="Workshopblok"><h1>Stroom geeft energie</h1></br>
 <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
 </div>
 
