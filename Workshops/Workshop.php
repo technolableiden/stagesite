@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/Workshops.css">
-    <script src="JS/js.js"></script>
+    <script src="js/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
@@ -17,6 +17,17 @@
 
 
 
+        #blok1 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 370px;
+            margin-left: 167px;
+            position: absolute;
+
+        }
+        
     </style>
 </head>
 <div>
@@ -52,9 +63,24 @@
     </div>
 
 </header>
+    <section id="blokkenrij1">
+    <div id="blok1"></div>
+    <div id="blok2"></div>
+    <div id="blok3"></div>
+    </section>
+    <section id="blokkenrij2">
+    <div id="blok4"></div>
+    <div id="blok5"></div>
+    <div id="blok6"></div>
+    </section>
+    <section id="blokkenrij3">
+    <div id="blok7"></div>
+    <div id="blok8"></div>
+    <div id="blok9"></div>
+    </section>
 
 <div class="workshop-flex">
-<div class="Workshopblok"><h1>Zintuigen</h1></br>
+<div onmouseover="mousein1()" onmouseleave="mouseout1()" class="Workshopblok"><h1>Zintuigen</h1></br>
 <a href="Zintuigen/Zintuigen.php">Klik hier</a></div>
 
 <div class="Workshopblok"><h1>Praten met apparaten</h1></br>

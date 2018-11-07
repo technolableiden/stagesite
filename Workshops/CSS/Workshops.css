@@ -10,6 +10,13 @@ body{
     background-color: #F7F7F7;
 }
 
+#test {
+    display: none;
+    width: 20vw;
+    height: 50vw;
+    background-color: #cccccc;
+    font-size: 50vw !important;
+}
 .menu-area li a{
     text-decoration: none;
     color: #F7F7F7;
