@@ -55,23 +55,23 @@
 <p>Score: <text id="score001">0</text></p>
 
 <div class="box002" ondrop="drop001(event)">
-    <img ondragstart="dragStart001(event)" draggable="true" id="target001" src="../Atonomie/img/hart-cartoon.png"></img>
+    <img ondragstart="dragStart001(event)" draggable="true" class="dropimg" id="target001" src="../Atonomie/img/hart-cartoon.png">
 </div>
 
 <div class="box002" ondrop="drop002(event)">
-    <img ondragstart="dragStart002(event)" draggable="true" id="target002" src="../Atonomie/img/longen.jpg"></img>
+    <img ondragstart="dragStart002(event)" draggable="true" class="dropimg" id="target002" src="../Atonomie/img/longen.jpg">
 </div>
 
 <div class="box002" ondrop="drop003(event)">
-    <img ondragstart="dragStart003(event)" draggable="true" id="target003" src="../Atonomie/img/dunne-darm1.png"></img>
+    <img ondragstart="dragStart003(event)" draggable="true" class="dropimg" id="target003" src="../Atonomie/img/dunne-darm1.png">
 </div>
 
 <div class="box002" ondrop="drop004(event)">
-    <text ondragstart="dragStart004(event)" draggable="true" id="target004">Oren</text>
+    <img ondragstart="dragStart004(event)" draggable="true" class="dropimg" id="target004" src="img/stomach-3329346_960_720.png">
 </div>
 
 <div class="box002" ondrop="drop005(event)">
-    <text ondragstart="dragStart005(event)" draggable="true" id="target005">Ogen</text>
+    <img ondragstart="dragStart005(event)" draggable="true" class="dropimg" id="target005" src="img/nieren.jpg">
 </div>
 <br /><br /><br /><br />
 
