@@ -178,14 +178,18 @@
     </div>
 
     <div class="workshop-flex">
-        <div onmouseover="mousein7()" onmouseleave="mouseout7()" class="Workshopblok"><h1>Atonomie</h1></br>
-            <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
+
+        <div onmouseover="mousein7()" onmouseleave="mouseout7()" class="Workshopblok"><h1>Experimenteren met elementen</h1></br>
+            <a href="Experimenteren_ME/Experimenteren_ME.php">Klik hier</a></div>
+
 
         <div onmouseover="mousein8()" onmouseleave="mouseout8()" class="Workshopblok"><h1>Bruggenbouwen</h1></br>
             <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
 
-        <div onmouseover="mousein9()" onmouseleave="mouseout9()" class="Workshopblok"><h1>Stroom geeft energie</h1></br>
-            <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
+
+        <div onmouseover="mousein9()" onmouseleave="mouseout9()"  class="Workshopblok"><h1>Bouw je attractie</h1></br>
+            <a href="Bouw_je_attractie/microbiologie.php">Klik hier</a></div>
+
     </div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
