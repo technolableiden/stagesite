@@ -10,6 +10,13 @@ body{
     background-color: #F7F7F7;
 }
 
+#test {
+    display: none;
+    width: 20vw;
+    height: 50vw;
+    background-color: #cccccc;
+    font-size: 50vw !important;
+}
 .menu-area li a{
     text-decoration: none;
     color: #F7F7F7;
@@ -22,6 +29,7 @@ body{
     position: relative;
     z-index: 1;
 }
+
 .menu-area li{
     list-style: none;
     display: inline-block;
@@ -130,10 +138,11 @@ nav:after{
     width: 300px;
     padding: 30px;
     text-align: center;
+    
 }
 
 .workshop-flex{
     display: flex;
     justify-content:space-around;
-    margin-top: 200px;
+    margin-top: 90px;
 }
