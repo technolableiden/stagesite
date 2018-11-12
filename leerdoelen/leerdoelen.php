@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/Contact.css">
-    <script src="JS/js.js"></script>
+    <script src="js/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
@@ -19,7 +19,7 @@
 
     </style>
 </head>
-<body>
+<body onload="leerdoel()">
 <header>
     <div class="custom=padding">
         <nav>
@@ -53,6 +53,11 @@
     </div>
 </header>
 
+<php>
+
+    sql = sqli_query = "select leerdoel='".$leerdoel."' from account where SESSION_USER=24;
+
+</php>
 <div id="big-border"></div>
 <section id="lange-border">
     <div id="block1" class="bordes"></div>
