@@ -29,6 +29,7 @@ body{
     position: relative;
     z-index: 1;
 }
+
 .menu-area li{
     list-style: none;
     display: inline-block;

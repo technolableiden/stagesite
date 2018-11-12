@@ -1,6 +1,7 @@
 //blok1
 function mousein1() {
     document.getElementById('blok1').style.display = 'block';
+    doxumwnr.getElementById('blok1').style
 }
 function mouseout1() {
     document.getElementById('blok1').style.display = 'none';
