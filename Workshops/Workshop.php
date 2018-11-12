@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/Workshops.css">
-    <script src="JS/js.js"></script>
+    <script src="js/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
@@ -16,6 +16,99 @@
     <style>
 
 
+
+        #blok1 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 370px;
+            margin-left: 167px;
+            position: absolute;
+
+        }
+        #blok2 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 370px;
+            margin-left: 801px;
+            position: absolute;
+
+        }
+        #blok3 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 370px;
+            margin-left: 1436px;
+            position: absolute;
+        }
+        #blok4 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 703px;
+            margin-left: 167px;
+            position: absolute;
+
+        }
+        #blok5 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 703px;
+            margin-left: 801px;
+            position: absolute;
+
+        }
+        #blok6 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 703px;
+            margin-left: 1436px;
+            position: absolute;
+
+        }
+        #blok7 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 1073px;
+            margin-left: 167px;
+            position: absolute;
+
+        }
+        #blok8 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 1073px;
+            margin-left: 801px;
+            position: absolute;
+
+        }
+        #blok9 {
+            display: none;
+            width: 300px;
+            height: 10vw;
+            background-color: #cccccc;
+            margin-top: 1073px;
+            margin-left: 1436px;
+            position: absolute;
+
+        }
+        #copyright {
+            margin-top: 10vw;
+        }
 
     </style>
 </head>
@@ -52,38 +145,51 @@
     </div>
 
 </header>
+    <div id="blok1"></div>
+    <div id="blok2"></div>
+    <div id="blok3"></div>
+    <div id="blok4"></div>
+    <div id="blok5"></div>
+    <div id="blok6"></div>
+    <div id="blok7"></div>
+    <div id="blok8"></div>
+    <div id="blok9"></div>
 
 <div class="workshop-flex">
-<div class="Workshopblok"><h1>Zintuigen</h1></br>
+<div onmouseover="mousein1()" onmouseleave="mouseout1()" class="Workshopblok"><h1>Zintuigen</h1></br>
 <a href="Zintuigen/Zintuigen.php">Klik hier</a></div>
 
-<div class="Workshopblok"><h1>Praten met apparaten</h1></br>
+<div onmouseover="mousein2()" onmouseleave="mouseout2()" class="Workshopblok"><h1>Praten met apparaten</h1></br>
 <a href="praten-met-apparaten/PMA.php">Klik hier</a></div>
 
-<div class="Workshopblok"><h1>Stroom geeft energie</h1></br>
+<div onmouseover="mousein3()" onmouseleave="mouseout3()" class="Workshopblok"><h1>Stroom geeft energie</h1></br>
 <a href="stroom-geeft-energie/Stroom.php">Klik hier</a></div>
 </div>
 
     <div class="workshop-flex">
-        <div class="Workshopblok"><h1>Atonomie</h1></br>
+        <div onmouseover="mousein4()" onmouseleave="mouseout4()" class="Workshopblok"><h1>Atonomie</h1></br>
             <a href="Atonomie/Atonomie.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Droge voeten</h1></br>
+        <div onmouseover="mousein5()" onmouseleave="mouseout5()" class="Workshopblok"><h1>Droge voeten</h1></br>
             <a href="drogevoeten/voeten.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Microbiologie</h1></br>
+        <div onmouseover="mousein6()" onmouseleave="mouseout6()" class="Workshopblok"><h1>Microbiologie</h1></br>
             <a href="microbiologie/microbiologie.php">Klik hier</a></div>
     </div>
 
     <div class="workshop-flex">
-        <div class="Workshopblok"><h1>Atonomie</h1></br>
+
+        <div onmouseover="mousein7()" onmouseleave="mouseout7()" class="Workshopblok"><h1>Experimenteren met elementen</h1></br>
+            <a href="Experimenteren_ME/Experimenteren_ME.php">Klik hier</a></div>
+
+
+        <div onmouseover="mousein8()" onmouseleave="mouseout8()" class="Workshopblok"><h1>Bruggenbouwen</h1></br>
             <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Bruggenbouwen</h1></br>
-            <a href="bruggenbouwen/bruggenbouwen.php">Klik hier</a></div>
 
-        <div class="Workshopblok"><h1>Bouw je attractie</h1></br>
+        <div onmouseover="mousein9()" onmouseleave="mouseout9()" class="Workshopblok"><h1>Bouw je attractie</h1></br>
             <a href="Bouw_je_attractie/attractie.php">Klik hier</a></div>
+
     </div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>

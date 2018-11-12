@@ -45,8 +45,9 @@
                             else{
                                 header("Location: ../login_form.html");
                             }
-
-                            ?></a>
+                            
+                            ?>
+                        </a>
                     </div>
                 </div>
     </div>
@@ -54,18 +55,16 @@
 
 <div id="big-border"></div>
 <section id="lange-border">
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-    <div class="bordes"></div>
-
-
+    <div id="block1" class="bordes"></div>
+    <div id="block2" class="bordes"></div>
+    <div id="block3" class="bordes"></div>
+    <div id="block4" class="bordes"></div>
+    <div id="block5" class="bordes"></div>
+    <div id="block6" class="bordes"></div>
+    <div id="block7" class="bordes"></div>
+    <div id="block8" class="bordes"></div>
+    <div id="block9" class="bordes"></div>
+    <div id= "block10" class="bordes"></div>
 </section>
 <h1 id="meter">10-METER</h1>
 <div id="box2"></div>
