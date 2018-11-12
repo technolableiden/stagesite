@@ -56,7 +56,7 @@
                     </a></li>
                     <div class="dropdown-content">
                         <a href='uitloggen.php'>Uitloggen</a>
-                        <a><?php
+                        <a href="../profiel/profiel.php"><?php
 
                             session_start();
 
