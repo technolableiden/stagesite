@@ -19,7 +19,7 @@
 
     </style>
 </head>
-<body onload="leerdoel()">
+<body onload="leerdoel1()">
 <header>
     <div class="custom=padding">
         <nav>
@@ -53,11 +53,17 @@
     </div>
 </header>
 
-<php>
+<?php
+include('../config.php');
+?>
+<div id="leerdoel">
+    <?php $leerdoel = "leerdoel1";?>
+</div>
 
-    sql = sqli_query = "select leerdoel='".$leerdoel."' from account where SESSION_USER=24;
+<?php
+    $sqli_query = "select leerdoel = '".$leerdoel."' from account where SESSION_USER=24;"
+?>
 
-</php>
 <div id="big-border"></div>
 <section id="lange-border">
     <div id="block1" class="bordes"></div>
