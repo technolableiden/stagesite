@@ -53,7 +53,7 @@
 </header>
 <?php
 include ("../config.php");
-if (isset($_POST['save'])) {
+if (isset($_POST['submit'])) {
     $naam = $_POST['naam'];
     $gbdatum = $_POST['gbdatum'];
     $achternaam = $_POST['achternaam'];
@@ -64,14 +64,16 @@ if (isset($_POST['save'])) {
     $hobby = $_POST['hobby'];
     $werk = $_POST['werk'];
 
-    mysqli_query($con, "INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk) VALUES ($naam, '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk')");
+    mysqli_query($con, "INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk) VALUES ('$naam', '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');");
+
+    echo 'het is met succes opgeslagen';
 }
 $con->close();
 ?>
 
 <h2>Persoon gegevens</h2>
 
-<form class="form" method="POST" action="">
+<form id="form-reg" method="POST" action="">
     Naam:<br>
     <input type="text" name="naam" id="naam">
     <br>
@@ -98,7 +100,7 @@ $con->close();
     <br>
     Werk:<br>
     <input type="text" name="werk" id="werk">
-    <input type="submit" class="save" value="save">
+    <input type="submit" class="submit" name="submit" value="save"/>
 </form>
 
 
