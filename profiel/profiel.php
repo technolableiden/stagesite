@@ -52,6 +52,9 @@
                 </div>
     </div>
 </header>
+<?php
+include (../config.php)
+?>
 
 <h2>Persoon gegevens</h2>
 
