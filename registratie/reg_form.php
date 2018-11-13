@@ -24,7 +24,7 @@ if(isset($_POST['submit'])) {
     $email = $_POST['email'];
     $activatie = $_POST['activatie'];
 if ($activatie=='2665'){
-    mysqli_query($con,"INSERT INTO account(id, username, password, email) VALUES (NULL, '$uname', '$pass', '$email');");
+    mysqli_query($con,"INSERT INTO account(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk ) VALUES ($naam, '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');");
     $message = "Account is aangemaakt! druk op OK en je wordt doorgestuurd!";
     echo "<script type='text/javascript'>alert('$message');</script>";
     header( "refresh:0.1;url=../login_form.php" );
@@ -32,7 +32,7 @@ if ($activatie=='2665'){
 else{
     echo 'activation code isnt working!!';
 }
-}
+}   
 $con->close();
 ?>
 
