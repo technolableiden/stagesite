@@ -52,41 +52,41 @@
 <img src="../Atonomie/img/lichaam.jpg">
 
 <div id="quiz">
-<p>Score: <text id="score001">0</text></p>
+    <p>Score: <text id="score001">0</text></p>
 
-<div class="box002" ondrop="drop001(event)">
-    <img ondragstart="dragStart001(event)" draggable="true" class="dropimg" id="target001" src="../Atonomie/img/hart-cartoon.png">
-</div>
+    <div class="box002" ondrop="drop001(event)">
+        <img ondragstart="dragStart001(event)" draggable="true" class="dropimg" id="target001" src="../Atonomie/img/hart-cartoon.png" />
+    </div>
 
-<div class="box002" ondrop="drop002(event)">
-    <img ondragstart="dragStart002(event)" draggable="true" class="dropimg" id="target002" src="../Atonomie/img/longen.jpg">
-</div>
+    <div class="box002" ondrop="drop002(event)">
+        <img ondragstart="dragStart002(event)" draggable="true" class="dropimg" id="target002" src="../Atonomie/img/longen.jpg">
+    </div>
 
-<div class="box002" ondrop="drop003(event)">
-    <img ondragstart="dragStart003(event)" draggable="true" class="dropimg" id="target003" src="../Atonomie/img/dunne-darm1.png">
-</div>
+    <div class="box002" ondrop="drop003(event)">
+        <img ondragstart="dragStart003(event)" draggable="true" class="dropimg" id="target003" src="../Atonomie/img/dunne-darm1.png">
+    </div>
 
-<div class="box002" ondrop="drop004(event)">
-    <img ondragstart="dragStart004(event)" draggable="true" class="dropimg" id="target004" src="img/stomach-3329346_960_720.png">
-</div>
+    <div class="box002" ondrop="drop004(event)">
+        <img ondragstart="dragStart004(event)" draggable="true" class="dropimg" id="target004" src="img/stomach-3329346_960_720.png">
+    </div>
 
-<div class="box002" ondrop="drop005(event)">
-    <img ondragstart="dragStart005(event)" draggable="true" class="dropimg" id="target005" src="img/nieren.jpg">
-</div>
-<br /><br /><br /><br />
+    <div class="box002" ondrop="drop005(event)">
+        <img ondragstart="dragStart005(event)" draggable="true" class="dropimg" id="target005" src="img/nieren.jpg">
+    </div>
+    <br /><br /><br /><br />
 
-<div class="box001" ondrop="drop006(event)" ondragover="allowDrop005(event)" id="place001">Kijken</div>
+    <div class="box001" ondrop="drop006(event)" ondragover="allowDrop005(event)" id="place001">Kijken</div>
 
-<div class="box001" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002">Proeven</div>
+    <div class="box001" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002">Proeven</div>
 
-<div class="box001" ondrop="drop008(event)" ondragover="allowDrop004(event)" id="place003">Voelen</div>
+    <div class="box001" ondrop="drop008(event)" ondragover="allowDrop004(event)" id="place003">Voelen</div>
 
-<div class="box001" ondrop="drop009(event)" ondragover="allowDrop001(event)" id="place004">Ruiken</div>
+    <div class="box001" ondrop="drop009(event)" ondragover="allowDrop001(event)" id="place004">Ruiken</div>
 
-<div class="box001" ondrop="drop010(event)" ondragover="allowDrop003(event)" id="place005">Luisteren</div><br /><br /><br />
+    <div class="box001" ondrop="drop010(event)" ondragover="allowDrop003(event)" id="place005">Luisteren</div><br /><br /><br />
 
-<button onclick="submit001()">Submit</button>
-<p id="message001"></p>
+    <button onclick="submit001()">Submit</button>
+    <p id="message001"></p>
 </div>
 
 
