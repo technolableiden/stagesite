@@ -53,38 +53,52 @@
     </div>
 </header>
 <?php
-include (../config.php)
+include ("../config.php");
+if (isset($_POST['save'])) {
+    $naam = $_POST['naam'];
+    $gbdatum = $_POST['gbdatum'];
+    $achternaam = $_POST['achternaam'];
+    $email = $_POST['email'];
+    $mnummer = $_POST['mnummer'];
+    $adres = $_POST['adres'];
+    $wplaats = $_POST['wplaats'];
+    $hobby = $_POST['hobby'];
+    $werk = $_POST['werk'];
+}
+mysqli_query($con,"INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk ) VALUES ($naam, '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');");
+$con->close();
 ?>
 
 <h2>Persoon gegevens</h2>
 
-<form class="form">
+<form class="form" method="POST" action="">
     Naam:<br>
-    <input type="text" name="naam">
+    <input type="text" name="naam" id="naam">
     <br>
     Achternaam:<br>
-    <input type="text" name="achternaam">
+    <input type="text" name="achternaam" id="achternaam">
     <br>
     Geboortedatum:<br>
-    <input type="text" name="gbdatum">
+    <input type="text" name="gbdatum" id="gbdatum">
     <br>
     E-mail:<br>
-    <input type="text" name="email">
+    <input type="text" name="email" id="email">
     <br>
     Mobiel nummer:<br>
-    <input type="text" name="mnummer">
+    <input type="text" name="mnummer" id="mnummer">
     <br>
     Adres:<br>
-    <input type="text" name="adres">
+    <input type="text" name="adres" id="adres">
     <br>
     Woonplaats:<br>
-    <input type="text" name="wplaats">
+    <input type="text" name="wplaats" id="wplaats">
     <br>
     Hobby's:<br>
-    <input type="text" name="hobby">
+    <input type="text" name="hobby" id="hobby">
     <br>
     Werk:<br>
-    <input type="text" name="werk">
+    <input type="text" name="werk" id="werk">
+    <input type="submit" class="save" value="save">
 </form>
 
 
