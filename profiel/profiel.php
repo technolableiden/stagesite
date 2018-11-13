@@ -65,7 +65,13 @@ if (isset($_POST['submit'])) {
     $werk = $_POST['werk'];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     mysqli_query($con, "INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk) VALUES ('$naam', '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');
+=======
+    mysqli_query($con, "INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk) VALUES ('$naam', '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');");
+
+    echo 'het is met succes opgeslagen';
+>>>>>>> 03aee1f919e4b23fdd857b4e91d96ad387585be2
 =======
     mysqli_query($con, "INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk) VALUES ('$naam', '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');");
 
