@@ -1,6 +1,6 @@
-var leerdoel2 = string(document.getElementById('leerdoel').innerHTML);
+var leerdoel2 = 8;
 function leerdoel1() {
-    switch ($leerdoel2) {
+    switch (leerdoel2) {
     case 1:
         document.getElementById('block1').style.backgroundColor = 'black';
         document.getElementById('block2').style.backgroundColor = 'white';
@@ -87,7 +87,7 @@ function leerdoel1() {
         break;
     case 8:
         document.getElementById('block1').style.backgroundColor = 'black';
-        document.getElementById('block2').style.backgroundColor = 'black';
+        document.getElementById("block2").style.backgroundColor = "black"
         document.getElementById('block3').style.backgroundColor = 'black';
         document.getElementById('block4').style.backgroundColor = 'black';
         document.getElementById('block5').style.backgroundColor = 'black';
@@ -122,4 +122,5 @@ function leerdoel1() {
         document.getElementById('block10').style.backgroundColor = 'black';
         break;
 }
+
 }

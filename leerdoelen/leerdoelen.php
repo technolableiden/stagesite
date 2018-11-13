@@ -55,12 +55,12 @@
 
 <?php
 include('../config.php');
+
+$sqli_query = "select leerdoel from account where SESSION_USER=24;";
+
+
 ?>
-<div id="leerdoel">
-<?php
-    $sqli_query = "select leerdoel from account where SESSION_USER=24;"
-?>
-</div>
+<div id="leerdoel" value="'.$leerdoel.'"></div>
 <div id="big-border"></div>
 <section id="lange-border">
     <div id="block1" class="bordes"></div>

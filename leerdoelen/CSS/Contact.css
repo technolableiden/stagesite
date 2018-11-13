@@ -14,13 +14,15 @@ body{
 
 }
 #lange-border {
-    border: solid black;
+    border: solid #8CC63E;
     display: flex;
     margin-left: 17.5vw;
     margin-top: 8vw;
     position: absolute;
 
 }
+
+
 #rij1 {
     display: flex;
     margin-left: 20vw;
@@ -93,7 +95,7 @@ body{
     margin-left: 42vw;
 }
 .bordes {
-    border: solid black;
+    border: solid #8CC63E;
     height: 5vw;
     width: 5vw;
 
