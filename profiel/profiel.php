@@ -65,7 +65,7 @@ if (isset($_POST['save'])) {
     $hobby = $_POST['hobby'];
     $werk = $_POST['werk'];
 }
-mysqli_query($con,"INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk ) VALUES ($naam, '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk');");
+mysqli_query($con,"INSERT INTO persoonsgegevens(naam, gbdatum, achternaam, email, mnummer, adres, wplaats, hobby, werk) VALUES ($naam, '$achternaam', '$gbdatum', '$email', '$mnummer', '$adres', '$wplaats', '$hobby', '$werk')");
 $con->close();
 ?>
 
