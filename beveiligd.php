@@ -19,7 +19,7 @@
 
     </style>
 </head>
-<body>
+<body onload="setInterval('chat.update()', 1000)">
 <header>
     <div class="custom=padding">
         <nav>
