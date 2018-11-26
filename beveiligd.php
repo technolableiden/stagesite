@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -115,9 +117,8 @@
                             <a href='uitloggen.php'>Uitloggen</a>
                             <a><?php
 
-                                session_start();
                                 if($_SESSION['ingelogd'] == "ja"){
-                                    echo $_SESSION['username']."<br>";
+                                    echo $_SESSION['username'];
 
                                 }
                                 else{
