@@ -15,10 +15,16 @@
 
     <style>
 
+        .texten {
+            padding-left: 5vw;
+            margin-top: 2vw;
+            position: absolute;
+        }
+
         .placeholder {
             width: 15.55vw;
             height: 5vw;
-            margin-top: 4vw;
+            margin-top: 5vw;
         }
 
         #blok1 {
@@ -149,15 +155,15 @@
     </div>
 
 </header>
-    <div id="blok1"><p>text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok2"><p>text voor blok2</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok3"><p>text voor blok3</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok4"><p>text voor blok4</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok5"><p>text voor blok5</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok6"><p>text voor blok6</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok7"><p>text voor blok7</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok8"><p>text voor blok8</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok9"><p>text voor blok9</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok1"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok2"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok3"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok4"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok5"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok6"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok7"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok8"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok9"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
 
 <div class="workshop-flex">
 <div onmouseover="mousein1()" onmouseleave="mouseout1()" class="Workshopblok"><h1>Zintuigen</h1></br>
