@@ -71,38 +71,38 @@ if (isset($_POST['submit'])) {
 $con->close();
 ?>
 
-<h2>Persoon gegevens</h2>
-
-<form id="form-reg" method="POST" action="">
-    Naam:<br>
-    <input type="text" name="naam" id="naam">
-    <br>
-    Achternaam:<br>
-    <input type="text" name="achternaam" id="achternaam">
-    <br>
-    Geboortedatum:<br>
-    <input type="text" name="gbdatum" id="gbdatum">
-    <br>
-    E-mail:<br>
-    <input type="text" name="email" id="email">
-    <br>
-    Mobiel nummer:<br>
-    <input type="text" name="mnummer" id="mnummer">
-    <br>
-    Adres:<br>
-    <input type="text" name="adres" id="adres">
-    <br>
-    Woonplaats:<br>
-    <input type="text" name="wplaats" id="wplaats">
-    <br>
-    Hobby's:<br>
-    <input type="text" name="hobby" id="hobby">
-    <br>
-    Werk:<br>
-    <input type="text" name="werk" id="werk">
-    <input type="submit" class="submit" name="submit" value="save"/>
-</form>
-
+<div class="first">
+    <form id="form-reg" method="POST" action="">
+        <h2>Persoonsgegevens</h2><br>
+        Naam:<br>
+        <input type="text" name="naam" id="naam">
+        <br>
+        Achternaam:<br>
+        <input type="text" name="achternaam" id="achternaam">
+        <br>
+        Geboortedatum:<br>
+        <input type="text" name="gbdatum" id="gbdatum">
+        <br>
+        E-mail:<br>
+        <input type="text" name="email" id="email">
+        <br>
+        Mobiel nummer:<br>
+        <input type="text" name="mnummer" id="mnummer">
+        <br>
+        Adres:<br>
+        <input type="text" name="adres" id="adres">
+        <br>
+        Woonplaats:<br>
+        <input type="text" name="wplaats" id="wplaats">
+        <br>
+        Hobby's:<br>
+        <input type="text" name="hobby" id="hobby">
+        <br>
+        Werk:<br>
+        <input type="text" name="werk" id="werk">
+        <input type="submit" class="submit" name="submit" value="save"/>
+    </form>
+</div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>

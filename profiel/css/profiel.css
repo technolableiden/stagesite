@@ -124,7 +124,17 @@ nav:after{
     display: block;
 }
 
-.form{
-    padding-left: 5%;
-    padding-top: 10%;
+#form-reg {
+    margin-top: 10%;
+    margin-left: 15%;
 }
+
+div.first {
+    background: rgba(140, 198, 62, 0.6);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
