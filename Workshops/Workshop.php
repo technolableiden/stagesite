@@ -15,7 +15,11 @@
 
     <style>
 
-
+        .placeholder {
+            width: 15.55vw;
+            height: 5vw;
+            margin-top: 4vw;
+        }
 
         #blok1 {
             display: none;
@@ -145,15 +149,15 @@
     </div>
 
 </header>
-    <div id="blok1"></div>
-    <div id="blok2"></div>
-    <div id="blok3"></div>
-    <div id="blok4"></div>
-    <div id="blok5"></div>
-    <div id="blok6"></div>
-    <div id="blok7"></div>
-    <div id="blok8"></div>
-    <div id="blok9"></div>
+    <div id="blok1"><p>text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok2"><p>text voor blok2</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok3"><p>text voor blok3</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok4"><p>text voor blok4</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok5"><p>text voor blok5</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok6"><p>text voor blok6</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok7"><p>text voor blok7</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok8"><p>text voor blok8</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok9"><p>text voor blok9</p><img class="placeholder" src="placeholder.png"/></div>
 
 <div class="workshop-flex">
 <div onmouseover="mousein1()" onmouseleave="mouseout1()" class="Workshopblok"><h1>Zintuigen</h1></br>

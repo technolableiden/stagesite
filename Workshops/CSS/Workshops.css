@@ -9,7 +9,10 @@
 body{
     background-color: #F7F7F7;
 }
-
+.placeholder {
+    width: 2vw;
+    height: 2vw;
+}
 #test {
     display: none;
     width: 20vw;
