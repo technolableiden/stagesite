@@ -31,6 +31,8 @@ session_start();
         <script type="text/javascript" src="chat.js"></script>
         <script type="text/javascript">
 
+
+
             // ask user for name with popup prompt
 
 

@@ -65,9 +65,7 @@
 
                             }
                             else{
-                                $message = "mooi geprobeerd.. eerst inloggen!";
-                                echo "<script type='text/javascript'>alert('$message');</script>";
-                                header( "refresh:0.1;url=login_form.php" );
+                                header( "../login_form.php" );
                             }
 
                             ?></a>
