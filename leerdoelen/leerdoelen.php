@@ -60,11 +60,18 @@
 <?php
 include('../config.php');
 
-$leerdoel  = $sqli_query = "select leerdoel from account where SESSION_USER=24;";
+
+
+$sql = "select leerdoel from account where id='24'";
+$result = $con->query($sql);
+echo $result;
+
+mysqli_close ($con)
 
 
 ?>
-<?php echo "<div id='leerdoel' value='.$leerdoel.'></div>"; ?>
+</body>
+<?php echo "<div id='leerdoel' value='.$result.'></div>"; ?>
 <div id="big-border"></div>
 <section id="lange-border">
     <div id="block1" class="bordes"></div>
@@ -84,27 +91,6 @@ $leerdoel  = $sqli_query = "select leerdoel from account where SESSION_USER=24;"
 <div id="box3"></div>
 <img id="trap" src="img/trap.gif"/>
 
-<!--
-<section id="rij1">
-    <div class="rijen"></div>
-    <div class="rijen"></div>
-    <div class="rijen"></div>
-</section>
-<section id="rij2">
-    <div class="rijen"></div>
-    <div class="rijen"></div>
-    <div class="rijen"></div>
-</section>
-<section id="rij3">
-    <div class="rijen"></div>
-    <div class="rijen"></div>
-    <div class="rijen"></div>
-</section>
-
-
-
-</section>
--->
 
 <form id="checkform" action="checkver.php">
 <input type="checkbox" class="checkboxen" name="zintuigen" value="zintuigen">Zintuigen</br>

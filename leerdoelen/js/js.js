@@ -1,4 +1,4 @@
-var leerdoel2 = document.getElementById('leerdoel').value;
+var leerdoel2 = document.getElementById('result');
 function leerdoel1() {
     switch (leerdoel2) {
     case 1:
