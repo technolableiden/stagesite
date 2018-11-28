@@ -16,9 +16,10 @@
     <style>
 
         .texten {
-            padding-left: 5vw;
-            margin-top: 2vw;
+            padding-left: .2vw;
+            margin-top: 1.5vw;
             position: absolute;
+            text-align: center;
         }
 
         .placeholder {
@@ -155,15 +156,15 @@
     </div>
 
 </header>
-    <div id="blok1"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok2"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok3"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok4"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok5"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok6"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok7"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok8"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok9"><p class="texten">text voor blok1</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok1"><p class="texten">Hier kom je te wweten hoe de workshop zintuigen in elkaar zit</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok2"><p class="texten">RobotBattle! welke robot overleeft het</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok3"><p class="texten">lukt het jou om het lampje te laten branden?</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok4"><p class="texten">laten we doctertje spelen!</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok5"><p class="texten">laten we water vervoeren! lukt het jou om punt B te bereiken?</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok6"><p class="texten">Hoeveel schade kan jij aanrichten als virus? laat het ons zien!</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok7"><p class="texten">Heb jij kennis met de elementen, test je kennis</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok8"><p class="texten">bouw een brug zonder hem te laten instoren! je moet zwaren objecten verplaatsen</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok9"><p class="texten">kan jij strategisch dit karretje laten rijden?</p><img class="placeholder" src="placeholder.png"/></div>
 
 <div class="workshop-flex">
 <div onmouseover="mousein1()" onmouseleave="mouseout1()" class="Workshopblok"><h1>Zintuigen</h1></br>
