@@ -7,6 +7,7 @@
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
     <meta name="author" content="Ravi Breugom, Alexander Wallaard, Natascha van Baal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="CSS/PMA.css" rel="stylesheet" type="text/css">
