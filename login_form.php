@@ -18,7 +18,7 @@ if (isset($_GET['submit'])) {
         if ($count > 0) {
             $_SESSION['username'] = $uname;
             $_SESSION['ingelogd'] = "ja";
-            header('Location: beveiligd.php');
+            header('Location: index.php');
         } else {
             echo "Invalid username and password";
         }

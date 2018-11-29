@@ -43,11 +43,11 @@
 <header>
     <div class="custom=padding">
         <nav>
-    <a href="../beveiligd.php"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+    <a href="../index.php"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
                 <li><a href="../Workshops/Workshop.php">Workshops</a></li>
-                <li><a href="#">Agenda</a></li>
-                <li><a href="#">Leerdoelen</a></li>
+                <li><a href="agenda.php">Agenda</a></li>
+                <li><a href="../leerdoelen/leerdoelen.php">Leerdoelen</a></li>
                 <li><a href="../Contact/contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
