@@ -8,10 +8,10 @@
 
 }
 #excel {
-    width: 46.5vw;
-    height: 17vw;
-    margin-left: 8vw;
-    margin-top: 7vw;
+    width: 92vw !important;
+    height: 70vh !important;
+    margin-left: 2vw;
+    margin-top: .5vh;
 }
 
 body{
@@ -36,9 +36,9 @@ body{
 }
 #h-agenda {
     position: absolute;
-    margin-left: 34vw !important;
+    margin-left: 45vw !important;
     font-family: 'Raleway', sans-serif;
-    margin-top: 2vw;
+    margin-top: .8vh;
 
 
 }
@@ -69,6 +69,10 @@ nav{
     float: left;
     margin-top: -30px;
     margin-left: 10px;
+}
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
 }
 
 .menu-area li a:hover{
@@ -102,10 +106,10 @@ nav:after{
 }
 
 #grote-blok{
-    width: 70vw;
-    height: 40vw;
-    margin-top: 4vw;
-    margin-left: 10vw;
+    width: 96vw;
+    height: 41vw;
+    margin-top: 4vh;
+    margin-left: 2vw;
     background-color: #8CC63E;
 }
 .dropdown {
