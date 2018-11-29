@@ -99,7 +99,7 @@ mysqli_close ($con)
 <div id='leerdoel'></div>
 <div id="big-border">
     <p id="text-bigborder">Hier zie je hoever je bent met je leerdoel, je stagebegeleider geeft om de zoveel tijd een cijfer</p>
-<h1>je hebt een: <script type="text/javascript">document.write(leerdoel2)</script></h1>
+<h1 id="text2-bigborder">je hebt een: <script type="text/javascript">document.write(leerdoel2)</script></h1>
 </div>
 <section id="lange-border">
     <div id="block1" class="bordes"></div>

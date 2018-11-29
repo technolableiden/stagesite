@@ -28,7 +28,10 @@ body{
     margin-top: 2.5vh;
     font-family: arial;
 }
-
+#text2-bigborder{
+    margin-top: 15vh;
+    margin-left: 25vw;
+}
 #rij1 {
     display: flex;
     margin-left: 20vw;
