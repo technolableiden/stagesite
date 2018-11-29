@@ -75,7 +75,7 @@
 </header>
 <div id="grote-blok">
     <h1 id="h-agenda">Agenda</h1>
-    <iframe id="excel" src="https://outlook.office365.com/owa/calendar/587a4593c5e14cbeb35550d51c3d20dc@technolableiden.nl/3dec10380d254562a3e727cfe9b94ba111424249706447017719/calendar.html"></iframe>
+    <iframe id="excel" src="https://outlook.office365.com/owa/calendar/587a4593c5e14cbeb35550d51c3d20dc@technolableiden.nl/2ae816d458ad4d7b865500c5f2b5d4963468342393624655268/calendar.html"></iframe>
 <!--link om sheet aan te passen: https://docs.google.com/spreadsheets/d/1YjCc5LHqA4otVWVo9Co5mBFEbtXvbFvpji_fC7hoQGI/edit#gid=1348854223 -->
 <p id="blok-info">Op deze pagina kan je zien waar en wanneer je ergens moet zijn! aan de rechterzijde heb je ook een vak om in te klokken, doe dit zodra je binnen komt om gedoe te vorkomen! thuis inklokken heeft geen zin omdat het IP strict is</p>
 </div>
