@@ -73,8 +73,8 @@ body{
 }
 #meter {
     position: absolute;
-    margin-top: 3vw;
-    margin-left: 40vw;
+    margin-top: 20vh;
+    margin-left: 42.5vw;
 }
 #box2 {
     width: 23.5vw;
