@@ -1,5 +1,5 @@
 //var leerdoel2 = document.getElementById('result');
-var leerdoel2 = 7;
+var leerdoel2 = Math.floor((Math.random() * 10) + 1);
 function leerdoel1() {
     switch (leerdoel2) {
     case 1:
