@@ -4,6 +4,7 @@ window.onload = function () {
 
     var height = canvas.height = 500;
     var width = canvas.width = 800;
+    var margin =  canvas.margin = 0,0,0,25%;
 
 
     var up = false;
