@@ -6,7 +6,7 @@ if($_SESSION['ingelogd'] == "ja"){
 
 }
 else{
-    header("Location: login_form.html");
+    header("Location: login_form.php");
 }
 ?>
 <!DOCTYPE html>
