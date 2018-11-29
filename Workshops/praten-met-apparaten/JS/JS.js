@@ -1,10 +1,9 @@
 window.onload = function () {
-    var canvas = document.getElementById("trash");
+    var canvas = document.getElementById("trash").style.marginLeft= "25%";
     var ctx = canvas.getContext('2d');
 
     var height = canvas.height = 500;
     var width = canvas.width = 800;
-    var margin =  canvas.margin = 0,0,0,25%;
 
     var up = false;
     var down = false;
