@@ -75,7 +75,7 @@
 
 
 
-    <div id="border-form"><script type="text/javascript" src="https://form.jotformeu.com/jsform/8332261525335'0'"></script></div>
+    <div id="border-form"><script type="text/javascript" src="https://form.jotformeu.com/jsform/83322615253350"></script></div>
 
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
