@@ -157,7 +157,7 @@
 
 </header>
     <div id="blok1"><p class="texten">Hier kom je te wweten hoe de workshop zintuigen in elkaar zit</p><img class="placeholder" src="placeholder.png"/></div>
-    <div id="blok2"><p class="texten">RobotBattle! welke robot overleeft het</p><img class="placeholder" src="placeholder.png"/></div>
+    <div id="blok2"><p class="texten">RobotBattle! welke robot overleeft het</p><img class="placeholder" src="robot.gif"/></div>
     <div id="blok3"><p class="texten">lukt het jou om het lampje te laten branden?</p><img class="placeholder" src="placeholder.png"/></div>
     <div id="blok4"><p class="texten">laten we doctertje spelen!</p><img class="placeholder" src="placeholder.png"/></div>
     <div id="blok5"><p class="texten">laten we water vervoeren! lukt het jou om punt B te bereiken?</p><img class="placeholder" src="placeholder.png"/></div>

@@ -56,23 +56,51 @@
 
 
 
-
+<!--
 <?php
 include('../config.php');
 
 
 
-$sql = "select leerdoel from account where id='24'";
-$result = $con->query($sql);
-echo $result;
+//$sql = "select leerdoel from account where id=24";
+//$result = $con->query($sql);
+//
+//print_r(var_name, return_output)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 mysqli_close ($con)
 
 
 ?>
+<script>
+    var result = document.getElementById('result').value;
+    console.log($result)
+</script>
+-->
 </body>
-<?php echo "<div id='leerdoel' value='.$result.'></div>"; ?>
-<div id="big-border"></div>
+<div id='leerdoel'></div>
+<div id="big-border">
+    <p id="text-bigborder">Hier zie je hoever je bent met je leerdoel, je stagebegeleider geeft om de zoveel tijd een cijfer</p>
+<h1>je hebt een: <script type="text/javascript">document.write(leerdoel2)</script></h1>
+</div>
 <section id="lange-border">
     <div id="block1" class="bordes"></div>
     <div id="block2" class="bordes"></div>
@@ -86,25 +114,8 @@ mysqli_close ($con)
     <div id= "block10" class="bordes"></div>
 </section>
 <h1 id="meter">10-METER</h1>
-<div id="box2"></div>
-
-<div id="box3"></div>
-<img id="trap" src="img/trap.gif"/>
 
 
-<form id="checkform" action="checkver.php">
-<input type="checkbox" class="checkboxen" name="zintuigen" value="zintuigen">Zintuigen</br>
-<input type="checkbox" class="checkboxen" name="praten met apparaten" value="praten met apparaten">Praten met apparaten</br>
-<input type="checkbox" class="checkboxen" name="stroom geeft energie" value="stroom geeft energy">Stroom geeft energie</br>
-<input type="checkbox" class="checkboxen" name="Atonomie" value="Atonomie">Atonomie</br>
-<input type="checkbox" class="checkboxen" name="Droge voeten" value="Droge voeten">Droge voeten</br>
-<input type="checkbox" class="checkboxen" name="stroom geeft energie" value="Stroom geeft energie">Stroom geeft energie</br>
-<input type="checkbox" class="checkboxen "name="Atonomie" value="Atonomie">Atonomie</br>
-<input type="checkbox" class="checkboxen" name="Bruggenbouwen" value="Bruggenbouwen">Bruggenbouwen</br>
-<input type="checkbox" class="checkboxen"name="Stroom geeft energie" value="Stroom geeft energie">Stroom geeft energie</br>
-<button class="checkboxen" type="submit">Geselecteerde toevoegen</button>
-</form>
-<img src="img/boom.png" alt="boom" id="boom"/>
 <footer id="copyright">&copy; Technolab Leiden</footer>
 </body>
 </html>
