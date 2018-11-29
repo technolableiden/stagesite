@@ -1,5 +1,13 @@
 <?php
 session_start();
+
+if($_SESSION['ingelogd'] == "ja"){
+
+
+}
+else{
+    header("Location: login_form.html");
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -118,15 +126,7 @@ session_start();
                         <div class="dropdown-content">
                             <a href='uitloggen.php'>Uitloggen</a>
                             <a><?php
-
-                                if($_SESSION['ingelogd'] == "ja"){
-                                    echo $_SESSION['username'];
-
-                                }
-                                else{
-                                    header("Location: login_form.php");
-                                }
-
+                                echo $_SESSION['username']."<br>";
                                 ?></a>
                         </div>
                     </div>

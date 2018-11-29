@@ -1,6 +1,6 @@
 <?php
 
-    $function = $_POST['function'];
+    $function = $_GET['function'];
     
     $log = array();
     
@@ -14,7 +14,7 @@
         	 break;	
     	
     	 case('update'):
-        	$state = $_POST['state'];
+        	$state = $_GET['state'];
         	if(file_exists('chat.txt')){
         	   $lines = file('chat.txt');
         	 }
@@ -40,9 +40,9 @@
              break;
     	 
     	 case('send'):
-		  $nickname = htmlentities(strip_tags($_POST['nickname']));
+		  $nickname = htmlentities(strip_tags($_GET['nickname']));
 			 $reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
-			  $message = htmlentities(strip_tags($_POST['message']));
+			  $message = htmlentities(strip_tags($_GET['message']));
 		 if(($message) != "\n"){
         	
 			 if(preg_match($reg_exUrl, $message, $url)) {
