@@ -1,5 +1,5 @@
 window.onload = function () {
-    var canvas = document.getElementById("trash").style.marginLeft= "25%";
+    var canvas = document.getElementById("trash");
     var ctx = canvas.getContext('2d');
 
     var height = canvas.height = 500;
