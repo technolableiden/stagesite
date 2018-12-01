@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Contact.css">
     <script src="JS/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">

@@ -13,7 +13,7 @@ else{
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/homecss.css">
         <script src="JS/js.js"></script>
         <meta charset="UTF-8">
         <meta name="description" content="Stagair local spot">

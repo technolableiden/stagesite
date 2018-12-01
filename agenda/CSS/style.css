@@ -7,6 +7,7 @@
     background-color: #F7F7F7;
     margin-left: 39.3vw;
 }
+
 #button-nieuw {
     background-color: #F7F7F7;
     margin-left:89vw;
@@ -41,7 +42,6 @@
     margin-left: 46vw;
 
 }
-
 .font {
     font-family: 'Raleway', sans-serif;
 }
@@ -73,13 +73,3 @@
     width: 13vw;
 }
 
-*{
-    margin: 0; padding: 0;
-}
-body{
-    font: 12px "Lucida Grande", Sans-Serif;
-    background: url(images/bg.png); }
-h2{
-    color: #fa9f00; font: 30px Helvetica, Sans-Serif;
-    margin: 0 0 10px 0;
-}
