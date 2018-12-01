@@ -126,7 +126,7 @@
 <header>
     <div class="custom=padding">
         <nav>
-            <a href="../beveiligd.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+            <a href="../index.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
                 <li><a href="Workshop.php">Workshops</a></li>
                 <li><a href="../agenda/agenda.php">Agenda</a></li>

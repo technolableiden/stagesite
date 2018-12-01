@@ -1,7 +1,6 @@
 <html>
 <head>
     <link href="../CSS/registratie.css" rel="stylesheet" type="text/css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
     <meta name="keywords" content="Technolab, Stagairs, Workshops">
@@ -11,7 +10,7 @@
 </head>
 <header>
     <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
-    <button id="ga-terug" href="../login-form.html" alt="terug knop"><a href="../login_form.html" id="font5">Ga terug naar login page</a></button>
+    <button id="ga-terug" href="../login-form.html" alt="terug knop"><a href="../login_form.php" id="font5">Ga terug naar login page</a></button>
 </header>
 <body>
 <?php
@@ -33,21 +32,15 @@ else{
 }   
 $con->close();
 ?>
-
 <form id="form-reg" method="POST" action="">
     <div id="font1">username</div> <input class="kleur-input" type="text" id="username" name="username"/><br>
     <div id="font2">password</div> <input class="kleur-input" type="password" id="password" name="password"/><br>
     <div id="font3">email</div> <input class="kleur-input" type="text" id="email" name="email"/><br>
     <div id="font4">activatie-code</div> <input class="kleur-input" type="password" name="activatie"/><br>
     <input type="submit" class="submit" name="submit" value="submit"/><br>
-    <!--<div id="bot-check" class="g-recaptcha" data-sitekey="6LcbP3IUAAAAAIemxhX68uF2OvoFyasjH9oTZrh9"></div>-->
 </form>
-
 </body>
 <footer>
-
     <footer id="copyright">&copy; Technolab Leiden</footer>
 </footer>
-
-
 </html>
