@@ -57,7 +57,7 @@ else{
 
 
 
-    <iframe src='https://minnit.chat/TechnolabChat?embed&web' width='1000' height='500' style='border:none;' allowTransparency='true'></iframe><br><a href='https://minnit.chat/TechnolabChat' target='_blank'>Free HTML5 Chatroom powered by Minnit Chat</a>
+    <iframe id="chat" src='https://minnit.chat/TechnolabChat?embed&web' width='1000' height='500' style='border:none;' allowTransparency='true'></iframe><br><a href='https://minnit.chat/TechnolabChat' target='_blank'>Free HTML5 Chatroom powered by Minnit Chat</a>
 
     </body>
 
