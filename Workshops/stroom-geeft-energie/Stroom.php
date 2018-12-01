@@ -15,7 +15,7 @@
 <header>
     <div class="custom=padding">
         <nav>
-            <a href="../../beveiligd.php"><img class="logo"
+            <a href="../../index.php"><img class="logo"
                                                src="../../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg"
                                                alt="Logo"></a>
             <ul class="menu-area">
@@ -52,8 +52,8 @@
     <p id="border-buiten-tekst2">Het doel van dit spel is om het lampje van stroom te voorzien! Lukt het jou om het
         lampje te laten branden?</p>
     <section id="flex-container-pijlen">
-        <img id="pijl-links" alt="pijl-links" src="img/pijl-links.png">
-        <img id="pijl-rechts" alt="pijl-rechts" src="img/pijl-rechts.png">
+        <img id="pijl-links" alt="pijl-links" src="../../img/pijl-links.png">
+        <img id="pijl-rechts" alt="pijl-rechts" src="../../img/pijl-rechts.png">
     </section>
 
     <canvas id="border-spel">
@@ -63,12 +63,12 @@
 
     <!--spel plaatjes-->
     <div id="gloeilamp">
-        <img id="lamp-uit" src="img/gloeilamp-uit.png"/>
-        <img id="lamp-aan" src="img/gloeilamp-aan.png"/>
+        <img id="lamp-uit" src="../../img/gloeilamp-uit.png"/>
+        <img id="lamp-aan" src="../../img/gloeilamp-aan.png"/>
     </div>
-    <img id="target" src="img/schakkelaar.png"/>
+    <img id="target" src="../../img/schakkelaar.png"/>
     <script src="./bl.ocks.org_files/rotate.js.download"></script>
-    <img id="target2" src="img/schakkelaar.png"/>
+    <img id="target2" src="../../img/schakkelaar.png"/>
     <script src="./bl.ocks.org_files/rotate2.js.download"></script>
     <button id="zetaan-knop" onclick="activate()">uit/aan</button>
     <script src="js/js.js"></script>

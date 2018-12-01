@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/Workshops.css">
+    <link rel="stylesheet" type="text/css" href="../../CSS/Workshops.css">
     <script src="JS/js.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
@@ -22,9 +22,9 @@
 <header>
     <div class="custom=padding">
         <nav>
-            <a href="../../beveiligd.php"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+            <a href="../../index.php"><img class="logo" src="../../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
-                <li><a href="../workshop.php">Workshops</a></li>
+                <li><a href="../Workshop.php">Workshops</a></li>
                 <li><a href="../../agenda/agenda.php">Agenda</a></li>
                 <li><a href="../../leerdoelen/leerdoelen.php">Leerdoelen</a></li>
                 <li><a href="../../Contact/Contact.php">Contact</a></li>
