@@ -7,6 +7,223 @@
     background-color: #F7F7F7;
     margin-left: 39.3vw;
 }
+
+
+#lange-border {
+    border: solid #8CC63E;
+    display: flex;
+    margin-left: 22vw;
+    margin-top: 21vw;
+    position: absolute;
+
+}
+#text-bigborder {
+    width: 20vw;
+    text-align: center;
+    margin-left: 20vw;
+    margin-top: 2.5vh;
+    font-family: arial;
+}
+#text2-bigborder{
+    margin-top: 15vh;
+    margin-left: 25vw;
+}
+#rij1 {
+    display: flex;
+    margin-left: 20vw;
+    margin-top: -20vw;
+    position: absolute;
+
+
+
+}
+#rij2 {
+    display: flex;
+    position: absolute;
+}
+#rij3 {
+    display: flex;
+    position: absolute;
+}
+.rijen {
+    background-color: black;
+    margin-left: 3vw;
+    font-family: 'Raleway', sans-serif;
+    width: 4vw;
+    height: 4vw;
+
+
+}
+.checkboxen {
+    margin-top: 2.6vw;
+}
+#checkform {
+    width: 23.5vw;
+    height: 43.5vw;
+    text-align: center;
+    margin-left: 75vw;
+    margin-top: -44.8vw;
+    font-size: 2vw;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+#meter {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 42.5vw;
+}
+#box2 {
+    width: 23.5vw;
+    height: 43vw;
+    margin-left: 75vw;
+    margin-top: 2vw;
+    background-color: #8CC63E;
+}
+#box3 {
+    position: absolute;
+    width: 60vw;
+    height: 26vw;
+    margin-left: 12.7vw;
+    margin-top: -26vw;
+    background-color: #8CC63E;
+}
+#trap {
+    position: relative;
+    margin-left: 1vw;
+    margin-top: -49vw;
+    width: 10vw;
+    height: 38vw;
+}
+#boom {
+    position: absolute;
+    margin-top: -26vw;
+    margin-left:  17vw;
+}
+.bordes {
+    border: solid #8CC63E;
+    height: 5vw;
+    width: 5vw;
+
+}
+#big-border {
+    position: absolute;
+    width: 60vw;
+    height: 15vw;
+    margin-left: 17vw;
+    margin-top: 16vw;
+    background-color: #8CC63E;
+}
+table {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.item {
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 20vw;
+    height: 60vh;
+    margin-left: 13%;
+}
+h3 {
+    margin-left: 13%;
+}
+label{
+    font-size: 15px;
+}
+
+
+.maps{
+    width: 40vw;
+    height: 50vh;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 300px;
+    grid-gap: 10px;
+    padding: 10px;
+    padding-top: 10%;
+    margin-bottom: -10%;
+}
+.grid-container>div {
+    text-align: center;
+    padding:20px 50;
+    font-size: 30px;
+}
+#form-reg{
+    background-color: #F7F7F7;
+    width: 13vw;
+    height: 17vw;
+    border: solid #432064;
+    text-align: center;
+    margin-left: 44vw;
+    margin-top: 10vh;
+}
+#font1,
+#font2,
+#font3,
+#font4 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F7F7F7;
+    font-size: 2vw;
+    color: #8CC63E;
+}
+#font5 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F7F7F7;
+    font-size: 1vw;
+    color: #8CC63E;
+}
+.kleur-input {
+    background-color: #F7F7F7;
+    width: 11vw;
+    border-radius: 30vw;
+}
+#bot-check {
+    margin-top: 1.8vw;
+    margin-left: -0.65vw;
+}
+#ga-terug {
+    background-color: #F7F7F7;
+    margin-left:89vw;
+    margin-top:2vw;
+    position: absolute;
+    height: 10vh;
+    width: 9vw;
+
+}
+
 #button-nieuw {
     background-color: #F7F7F7;
     margin-left:89vw;
@@ -39,6 +256,666 @@
 #copyright {
     margin-top: 14vw;
     margin-left: 46vw;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #F7F7F7;
+
+}
+#sss{
+    width: 90vw;
+    height: 90vh;
+}
+#border-form {
+    border: solid;
+    margin-left: -30vw;
+    width: 10vw;
+
+}
+
+
+
+
+
+table {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.item {
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 20vw;
+    height: 60vh;
+    margin-left: 13%;
+}
+h3 {
+    margin-left: 13%;
+}
+label{
+    font-size: 15px;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+#excel {
+    width: 92vw !important;
+    height: 70vh !important;
+    margin-left: 2vw;
+    margin-top: .5vh;
+}
+
+
+
+.box001 {
+    float: left;
+    width: 80px;
+    height: 10px;
+    margin: 12px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.box002 {
+    float: left;
+    width: 80px;
+    height: 7px;
+    margin: 12px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+#quiz{
+    margin-top: 200px;
+    background-color: #8CC63E;
+    width: 520px;
+    margin-left: calc(50vw - 260px);
+}
+
+#quiz button{
+    margin-left: calc(50% - 225px);
+    width:450px;
+}
+
+#quiz p{
+    text-align: center;
+    margin-top: -4px;
+    padding: 15px;
+}
+
+#border-buiten-tekst1 {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 32.5vw;
+    margin-top: -3vw;
+    border: solid;
+    position: absolute;
+}
+#flex-container-pijlen {
+    position: absolute;
+    display: flex;
+    margin-left: 30vw;
+    margin-top: -3.2vw;
+}
+#pijl-links {
+    width: 3.5vw;
+
+}
+#pijl-rechts {
+    width: 3.5vw;
+    margin-left: 15vw;
+    margin-left: 22vw;
+}
+#gloeilamp {
+
+
+}
+#lamp-aan {
+    visibility: hidden;
+    margin-top: -3.24vw;
+    margin-left: 63.5vw;
+    max-width: 18vw;
+    max-height: 18.5vw;
+    position: absolute;
+
+}
+#lamp-uit {
+    visibility: visible;
+    margin-left: 65vw;
+    margin-top: .5vw;
+    max-width: 15vw;
+    max-height: 14vw;
+    position: absolute;
+
+}
+
+#target2 {
+    margin-left: 12.7vw;
+    margin-top: 9.6vw;
+    position: absolute;
+    -webkit-transform: rotate(269deg);
+    -moz-transform: rotate(269deg);
+    -ms-transform: rotate(269deg);
+    -o-transform: rotate(269deg);
+    transform: rotate(269deg);  
+
+
+}
+#zetaan-knop {
+    position: absolute;
+    font-size: 1.3vw;
+    margin-left: -31vw;
+    margin-top: 23vw;
+}
+#zetuit-knop {
+    position: absolute;
+    font-size: 1.3vw;
+    margin-left: -31vw;
+    margin-top: 23vw;
+    visibility: hidden;
+}
+#target {
+    margin-left: 38.2vw;
+    margin-top: 15.75vw;
+    position: relative;
+    -webkit-transform: rotate(269deg);
+    -moz-transform: rotate(269deg);
+    -ms-transform: rotate(269deg);
+    -o-transform: rotate(269deg);
+    transform: rotate(269deg);
+}
+#border-buiten-tekst2 {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 34.4vw;
+    margin-top: 4vw;
+    padding-top: .2vw;
+    text-align: center;
+    width: 20vw;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+}
+h1 {
+    color: #8CC63E;
+    margin-top: 4%;
+    margin-left: 45%;
+}
+
+canvas {
+    margin-left: 25%;
+}
+before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top:10px solid #333333;
+    border-right:10px solid #333333;
+    border-left: 10px solid transparent;
+    border-bottom:10px solid transparent;
+}
+
+
+
+
+
+#Elementen{
+    margin-top: 200px;
+    width: 486px;
+    margin-left: calc(50vw - 500px);
+}
+
+.microbio{
+
+}
+
+
+#border-spel {
+    background-image: url("../img/speelveld.png");
+    position: absolute;
+    margin-left: calc(42vw - 600px);
+    margin-top: .5vw;
+    width:1320px !important;
+    height: 36vw;
+}
+#border-buiten {
+    margin-left: calc( 30vw -  450px );
+    margin-top: 4.4vw;
+    width: 1650px;
+    height: 41vw;
+    background-color: #8CC63E;
+}
+#h-agenda {
+    position: absolute;
+    margin-left: 45vw !important;
+    font-family: 'Raleway', sans-serif;
+    margin-top: .8vh;
+
+
+}
+
+.placeholder {
+    width: 2vw;
+    height: 2vw;
+}
+#test {
+    display: none;
+    width: 20vw;
+    height: 50vw;
+    background-color: #cccccc;
+    font-size: 50vw !important;
+}
+
+
+
+
+.Workshopblok{
+    background-color: #8CC63E;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.workshop-flex{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 200px;
+}
+
+#blok-info {
+    font-family: 'Raleway', sans-serif;
+    width: 20vw;
+    margin-top: 1.5vw;
+    margin-left: 25vw;
+    text-align: center;
+}
+
+nav{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    z-index: 1;
+    background: #8CC63E;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    margin-top: 30px;
+}
+
+
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
+}
+
+
+
+#grote-blok{
+    width: 96vw;
+    height: 41vw;
+    margin-top: 4vh;
+    margin-left: 2vw;
+    background-color: #8CC63E;
+}
+
+
+#welkomblok{
+    padding-top:20px;
+    background-color: #8CC63E;
+    margin-left: calc(50vw - 150px);
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#welkomblok h1{
+    color: #F7F7F7;
+    padding-bottom: 20px;
+
+}
+
+.maps{
+    width: 40vw;
+    height: 50vh;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 300px;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-bottom: -10%;
+    margin-left: 50vw;
+}
+.grid-container>div {
+    text-align: center;
+    padding:20px 50;
+    font-size: 30px;
+}
+
+                     { border: 3px solid #999; width: 360px; padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
+                     .menu-area li a{
+    text-decoration: none;
+    color: #F7F7F7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+.menu-area li{
+    list-style: none;
+    display: inline-block;
+}
+.custom-padding{
+
+    padding-top: 20%;
+}
+nav{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    z-index: 1;
+    background: #8CC63E;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    margin-top: 30px;
+}
+
+.logo{
+    width: 20vh;
+    float: left;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.menu-area li a:hover{
+    background: #432064;
+    color: #F7F7F7;
+}
+nav:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top:10px solid #333333;
+    border-right:10px solid #333333;
+    border-left: 10px solid transparent;
+    border-bottom:10px solid transparent;
+}
+
+nav:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top:10px solid #333333;
+    border-right:10px solid #333333;
+    border-left: 10px solid transparent;
+    border-bottom:10px solid transparent;
+}
+
+.menu-area h2{
+    color:#F7F7F7;
+}
+
+#border-buiten-tekst1 {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 32.5vw;
+    margin-top: -3vw;
+    border: solid;
+    position: absolute;
+}
+
+
+
+.custom-padding{
+
+    padding-top: 20%;
+}
+
+#border-spel {
+    background-image: url("../img/speelveld.png");
+    background-color: #333333 !important;
+    position: absolute;
+    margin-left: -2vw;
+    margin-top: .5vw;
+    width:50vw !important;
+    height: 34vw;
+}
+
+#bridge1 {
+    transform: rotate(-5deg);
+    width: 20vw;
+    margin-top: -5vw;
+}
+#bridge2{
+    transform: rotate(-5deg);
+    width: 20vw;
+    margin-top: -10vw;
+}
+#bridge3 {
+    transform: rotate(-5deg);
+    width: 20vw;
+    margin-top: -10.2vw;
+}
+#gamie {
+    position: absolute;
+    margin-left: 18.5vw;
+    margin-top: 5.6vw;
+}
+
+.box001 {
+    float: left;
+    width: 80px;
+    height: 10px;
+    margin: 12px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.box002 {
+    float: left;
+    width: 80px;
+    height: 7px;
+    margin: 12px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+#quiz{
+    margin-top: 200px;
+    background-color: #8CC63E;
+    width: 520px;
+    margin-left: calc(50vw - 260px);
+}
+
+#quiz button{
+    margin-left: calc(50% - 225px);
+    width:450px;
+}
+
+#quiz p{
+    text-align: center;
+    margin-top: -4px;
+    padding: 15px;
+}
+
+.dropimg{
+    width: 5vw;
+}
+
+.attratie{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#game-tekst {
+    width: 18vw;
+    position: absolute;
+    border: solid;
+    border-color: #8CC63E;
+    margin-top: .4vw;
+    margin-left: 40.3vw;
+    padding-left: 1vw;
+}
+#bordie {
+    height: 30vw;
+    width: 45vw;
+    margin-left: 29.5vw;
+    margin-top: 5vw;
+    background-color: #8CC63E;
+}
+.flex {
+    display: flex;
+}
+#border-rechts {
+    background-color: #dddddd;
+    width: 20vw;
+    height: 30vw;
+    margin-top: 5vw;
+}
+
+.Workshopblok{
+    background-color: #8CC63E;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+}
+
+.workshop-flex{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 200px;
+}
+#border-buiten {
+    margin-left: calc( 30vw -  450px );
+    margin-top: 4.4vw;
+    width: 86.2vw;
+    height: 38.5vw;
+    background-color: #8CC63E;
+    border: solid;
+    border-color: #333333;
+}
+#spel {
+margin-left: 17vw;
+    margin-top: 7vw;
+}
+
+#recht-box {
+    background-color: beige;
+    margin-left: 55.5vw;
+    padding-bottom: 38.2vw !important;
+    width: 29.6vw;
+    height 4vw;
+    position: absolute;
+}
+#tekst-boven {
+    position: absolute;
+    margin-top: 1.2vw;
+    border: solid;
+    border-color: #333333;
+    margin-left: 38vw;
+    width: 9vw;
+    text-align: center;
+
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin-left: 50px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #432064;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#welkomblok{
+    padding-top:20px;
+    background-color: #8CC63E;
+    margin-left: calc(50vw - 150px);
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#welkomblok h1{
+    color: #F7F7F7;
+    padding-bottom: 20px;
 
 }
 

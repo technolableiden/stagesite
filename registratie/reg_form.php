@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <meta charset="UTF-8">
     <meta name="description" content="Stagair local spot">
