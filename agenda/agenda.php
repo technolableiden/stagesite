@@ -43,18 +43,18 @@
 <header>
     <div class="custom=padding">
         <nav>
-    <a href="../index.php"><img class="logo" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
+    <a href="../index.php"><img class="logo" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg" alt="Logo"></a>
             <ul class="menu-area">
                 <li><a href="../Workshops/Workshop.php">Workshops</a></li>
                 <li><a href="agenda.php">Agenda</a></li>
                 <li><a href="../leerdoelen/leerdoelen.php">Leerdoelen</a></li>
-                <li><a href="../Contact/contact.php">Contact</a></li>
+                <li><a href="../Contact/Contact.php">Contact</a></li>
                 <div class="dropdown">
                     <li><a class="dropbtn">&#9881;
                         <i class="fa fa-caret-down"></i>
                     </a></li>
                     <div class="dropdown-content">
-                        <a href='uitloggen.php'>Uitloggen</a>
+                        <a href='../uitloggen.php'>Uitloggen</a>
                         <a><?php
 
                             session_start();
@@ -76,7 +76,6 @@
 <div id="grote-blok">
     <h1 id="h-agenda">Agenda</h1>
     <iframe id="excel" src="https://outlook.office365.com/owa/calendar/587a4593c5e14cbeb35550d51c3d20dc@technolableiden.nl/2ae816d458ad4d7b865500c5f2b5d4963468342393624655268/calendar.html"></iframe>
-<!--link om sheet aan te passen: https://docs.google.com/spreadsheets/d/1YjCc5LHqA4otVWVo9Co5mBFEbtXvbFvpji_fC7hoQGI/edit#gid=1348854223 -->
 </div>
 
 </body>

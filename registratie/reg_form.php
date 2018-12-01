@@ -9,7 +9,7 @@
     <title>Technolab Stagairspot</title>
 </head>
 <header>
-    <img id="logo" alt="Logo Technolab" src="img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
+    <img id="logo" alt="Logo Technolab" src="../img/WhatsApp%20Image%202018-09-20%20at%2010.44.00.jpeg">
     <button id="ga-terug" href="../login-form.html" alt="terug knop"><a href="../login_form.php" id="font5">Ga terug naar login page</a></button>
 </header>
 <body>
