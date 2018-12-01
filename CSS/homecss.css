@@ -1,5 +1,23 @@
-                     { border: 3px solid #999; width: 360px; padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
-                     .menu-area li a{
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #F7F7F7;
+
+}
+
+.menu-area li a{
     text-decoration: none;
     color: #F7F7F7;
     letter-spacing: 1px;
@@ -15,10 +33,12 @@
     list-style: none;
     display: inline-block;
 }
+
 .custom-padding{
 
     padding-top: 20%;
 }
+
 nav{
     position: relative;
     padding: 10px 20px 10px 10px;
@@ -51,7 +71,6 @@ nav:before{
     border-left: 10px solid transparent;
     border-bottom:10px solid transparent;
 }
-
 nav:after{
     position: absolute;
     content: '';
@@ -111,7 +130,9 @@ nav:after{
 
 .dropdown:hover .dropdown-content {
     display: block;
+
 }
+
 
 #welkomblok{
     padding-top:20px;
