@@ -1,7 +1,15 @@
+
+
+
+
+
+
+
+
+	
 //blok1
 function mousein1() {
     document.getElementById('blok1').style.display = 'block';
-    doxumwnr.getElementById('blok1').style
 }
 function mouseout1() {
     document.getElementById('blok1').style.display = 'none';
@@ -79,3 +87,4 @@ function mousein9() {
 function mouseout9() {
     document.getElementById('blok9').style.display = 'none';
 }
+

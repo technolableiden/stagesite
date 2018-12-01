@@ -26,6 +26,10 @@ body{
     list-style: none;
     display: inline-block;
 }
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
+}
 .custom-padding{
 
     padding-top: 20%;

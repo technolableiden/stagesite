@@ -262,7 +262,10 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
+}
 .item {
     border-radius: 2px;
     background-color: #f2f2f2;

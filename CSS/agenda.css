@@ -73,6 +73,7 @@ nav{
 #copyright {
     margin-left: 47vw;
     margin-top: 1.5vh;
+    position: absolute;
 }
 
 .menu-area li a:hover{
@@ -107,7 +108,7 @@ nav:after{
 
 #grote-blok{
     width: 96vw;
-    height: 41vw;
+    height: 79vh;
     margin-top: 4vh;
     margin-left: 2vw;
     background-color: #8CC63E;

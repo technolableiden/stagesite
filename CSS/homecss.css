@@ -49,6 +49,10 @@ nav{
     width: calc(100% - 60px);
     margin-top: 30px;
 }
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
+}
 
 .logo{
     width: 20vh;

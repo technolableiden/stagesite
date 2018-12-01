@@ -22,6 +22,10 @@ body{
     position: relative;
     z-index: 1;
 }
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
+}
 .menu-area li{
     list-style: none;
     display: inline-block;

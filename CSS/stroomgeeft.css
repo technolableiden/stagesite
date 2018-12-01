@@ -36,6 +36,10 @@ body{
 
 
 }
+#copyright {
+    margin-left: 47vw;
+    margin-top: 1.5vh;
+}
 #lamp-aan {
     visibility: hidden;
     margin-top: -3.24vw;
