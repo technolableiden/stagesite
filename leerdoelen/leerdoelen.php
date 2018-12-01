@@ -61,8 +61,8 @@ include('../config.php');
 
 
 
-//$sql = "select leerdoel from account where id=24";
-//$result = $con->query($sql);
+$sql = "select leerdoel from account where id=24";
+$result = $con->query($sql);
 //
 //print_r(var_name, return_output)
 
@@ -95,7 +95,7 @@ mysqli_close ($con)
 </script>
 -->
 </body>
-<div id='leerdoel'></div>
+<div id='leerdoel' value=".$result."></div>
 <div id="big-border">
     <p id="text-bigborder">Hier zie je hoever je bent met je leerdoel, je stagebegeleider geeft om de zoveel tijd een cijfer</p>
 <h1 id="text2-bigborder">je hebt een: <script type="text/javascript">document.write(leerdoel2)</script></h1>
