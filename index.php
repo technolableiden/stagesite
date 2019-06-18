@@ -13,6 +13,7 @@ else{
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
         <link rel="stylesheet" type="text/css" href="CSS/homecss.css">
         <script src="JS/js.js"></script>
         <meta charset="UTF-8">
